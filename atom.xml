@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
-    <title>Hve Notes</title>
-    <updated>2020-04-11T08:21:04.028Z</updated>
+    <title>xingdou&apos;s blog</title>
+    <updated>2020-04-11T09:13:09.807Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>程序员的博客</subtitle>
     <logo>http://zhongxingdou.github.io/blog/images/avatar.png</logo>
     <icon>http://zhongxingdou.github.io/blog/favicon.ico</icon>
-    <rights>All rights reserved 2020, Hve Notes</rights>
+    <rights>All rights reserved 2020, xingdou&apos;s blog</rights>
     <entry>
         <title type="html"><![CDATA[Hello Hve Notes]]></title>
         <id>http://zhongxingdou.github.io/blog/post/hello-hve-notes/</id>
