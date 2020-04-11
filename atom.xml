@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-04-11T09:54:39.854Z</updated>
+    <updated>2020-04-11T10:46:24.250Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
-    <subtitle>程序员的博客</subtitle>
+    <subtitle>一个程序员的博客</subtitle>
     <logo>http://zhongxingdou.github.io/blog/images/avatar.png</logo>
     <icon>http://zhongxingdou.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2020, xingdou&apos;s blog</rights>
@@ -15,11 +15,17 @@
         <id>http://zhongxingdou.github.io/blog/post/working-too-long/</id>
         <link href="http://zhongxingdou.github.io/blog/post/working-too-long/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
+        <updated>2020-04-11T10:45:59.000Z</updated>
+        <summary type="html"><![CDATA[<p>毕业已经是19年前的事了<br>
+做程序也已经有13年了<br>
+不知不觉人生已经走过了三分之一（可能还要多😭）<br>
+心里还不觉得，可人家已经叫你叔了</p>
+]]></summary>
         <content type="html"><![CDATA[<p>毕业已经是19年前的事了<br>
 做程序也已经有13年了<br>
 不知不觉人生已经走过了三分之一（可能还要多😭）<br>
 心里还不觉得，可人家已经叫你叔了</p>
+<!-- more -->
 <p>青春不见了<br>
 曾经爱过的姑娘不见了<br>
 老家的土房子也不见了<br>
@@ -40,6 +46,27 @@
 我卖了我的自由<br>
 换来了如此的人生<br>
 如此的人生</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[火龙果H5开发平台开发日志]]></title>
+        <id>http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/</id>
+        <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
+        </link>
+        <updated>2020-04-11T10:28:23.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="2020-4-7">2020-4-7</h2>
+<p>实现用户验证服务</p>
+<ul>
+<li>json-web-token, jsonwebsocket</li>
+<li>koa-session</li>
+</ul>
+<h2 id="2020-3-22">2020-3-22</h2>
+<p>开发环境搭建</p>
+<ul>
+<li>Koa 2</li>
+<li>Mysql, Sequelize</li>
+<li>Vuejs, Vue CLI</li>
+</ul>
 ]]></content>
     </entry>
 </feed>
