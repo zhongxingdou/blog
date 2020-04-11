@@ -1,87 +1,79 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
-
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>火龙果H5开发平台开发日志 | xingdou&#39;s blog</title>
-<meta name="description" content="一个程序员的博客">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
 <link rel="shortcut icon" href="http://zhongxingdou.github.io/blog//favicon.ico">
 <link rel="stylesheet" href="http://zhongxingdou.github.io/blog//styles/main.css">
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
   </head>
   <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="http://zhongxingdou.github.io/blog/">
-        <img src="http://zhongxingdou.github.io/blog//images/avatar.png" class="site-logo">
-        <h1 class="site-title">xingdou&#39;s blog</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="http://zhongxingdou.github.io/blog/">
+  <img class="avatar" src="http://zhongxingdou.github.io/blog//images/avatar.png" alt="" width="80px" height="80px">
+  </a>
+  <h1 class="site-title">
+    xingdou&#39;s blog
+  </h1>
+  <p class="site-description">
+    一个程序员的博客
+  </p>
+  <div class="menu-container">
+    
       
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
+        <a href="/" class="menu">
+          首页
+        </a>
       
-        
-          <a href="/archives" class="site-nav">
-            归档
-          </a>
-        
+    
       
-        
-          <a href="/tags" class="site-nav">
-            标签
-          </a>
-        
+        <a href="/archives" class="menu">
+          归档
+        </a>
       
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
+    
       
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="site-description">
-      一个程序员的博客
-    </div>
-    <div class="site-footer">
-      版权归博主所有，转载请联系付费！
-    </div>
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
   </div>
 </div>
 
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">火龙果H5开发平台开发日志</h2>
-            <div class="post-date">2020-04-11</div>
-            
-              <div class="feature-container" style="background-image: url('http://zhongxingdou.github.io/blog//post-images/huolongguo-h5-dev-log.jpg')">
-              </div>
-            
+      
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              火龙果H5开发平台开发日志
+            </h2>
+            <div class="post-info">
+              <time class="post-time">
+                · 2020-04-11 ·
+              </time>
+              
+                <a href="http://zhongxingdou.github.io/blog/tag/WgaRLZR8b/" class="post-tags">
+                  # huolongguo
+                </a>
+              
+                <a href="http://zhongxingdou.github.io/blog/tag/QgKZo4-ScA/" class="post-tags">
+                  # h5
+                </a>
+              
+            </div>
             <div class="post-content">
               <h2 id="2020-4-7">2020-4-7</h2>
 <p>实现用户验证服务</p>
@@ -98,48 +90,22 @@
 </ul>
 
             </div>
-            
-              <div class="tag-container">
-                
-                  <a href="http://zhongxingdou.github.io/blog/tag/WgaRLZR8b/" class="tag">
-                    huolongguo
-                  </a>
-                
-                  <a href="http://zhongxingdou.github.io/blog/tag/QgKZo4-ScA/" class="tag">
-                    h5
-                  </a>
-                
-              </div>
-            
-            
-
-            
-
-          </div>
-
+          </article>
         </div>
-      </div>
-    </div>
+    
+        
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        
+    
+        <div class="site-footer">
+  版权归博主所有，转载请联系付费！
+</div>
 
-<script type="application/javascript">
-
-AOS.init();
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
-
-
-
+      </div>
+    </div>
   </body>
 </html>
