@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-04-11T10:53:12.178Z</updated>
+    <updated>2020-04-16T05:40:47.149Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -10,6 +10,53 @@
     <logo>http://zhongxingdou.github.io/blog/images/avatar.png</logo>
     <icon>http://zhongxingdou.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2020, xingdou&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[代码在干什么？]]></title>
+        <id>http://zhongxingdou.github.io/blog/post/what-code-do/</id>
+        <link href="http://zhongxingdou.github.io/blog/post/what-code-do/">
+        </link>
+        <updated>2020-04-16T03:32:05.000Z</updated>
+        <content type="html"><![CDATA[<p>代码有长有短，<br>
+如 windows 源码，<br>
+长到这辈子可能都看不完。<br>
+如 print(“hello world”)，<br>
+短到你怀疑不可能这么简单。<br>
+代码有复杂有简单，<br>
+有精致有丑陋，<br>
+whatever!（nice english）<br>
+总归是写出来“干事的”，<br>
+总不是写出来“白瞎的”。</p>
+<p>经某人总结，<br>
+代码干了一件事：<br>
+“找出东西来用”。<br>
+这挺好理解，<br>
+做饭得用锅，<br>
+上街得坐车。<br>
+but, young man,<br>
+it's not simple!（ double nice）</p>
+<p>做饭得放米，<br>
+米在米缸、米袋、米桶里，<br>
+放米得看几张口，（single dont cry)<br>
+量了米得洗，<br>
+洗完米来再加水，<br>
+加少了崩牙，加多了变糊，<br>
+1x1.5 是瘦杆米，<br>
+1x1 是胖墩米，<br>
+擦干手来插上电，<br>
+最后记得按对钮。</p>
+<p>其实呢，一切都是数据，<br>
+米是1，缸是2，锅是3，水是4，<br>
+放米a，洗米b，加水c，插电d，按钮e，<br>
+其实呢，一切变化都是数据变化，<br>
+电流要跑多少回，水要蒸腾几朵云，<br>
+才能把生米给做成了熟饭。（single think more)</p>
+<p>So，“找出东西来用” 就是，<br>
+有序编码数据，<br>
+精准写入数据，<br>
+依规有序计算数据。<br>
+So，你学会做饭了吗？</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[工作太久带来的问题]]></title>
         <id>http://zhongxingdou.github.io/blog/post/working-too-long/</id>
@@ -54,7 +101,9 @@
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-4-7">2020-4-7</h2>
+        <content type="html"><![CDATA[<h2 id="2020-4-12">2020-4-12</h2>
+<p>实现登陆界面</p>
+<h2 id="2020-4-7">2020-4-7</h2>
 <p>实现用户验证服务</p>
 <ul>
 <li>json-web-token, jsonwebsocket</li>
