@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-04-16T05:45:39.724Z</updated>
+    <updated>2020-04-17T23:40:36.789Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -23,7 +23,7 @@
 短到你怀疑不可能这么简单。<br>
 代码有复杂有简单，<br>
 有精致有丑陋，<br>
-whatever!（nice english）<br>
+whatever!<br>
 总归是写出来“干事的”，<br>
 总不是写出来“白瞎的”。</p>
 <p>经某人总结，<br>
@@ -33,10 +33,10 @@ whatever!（nice english）<br>
 做饭得用锅，<br>
 上街得坐车。<br>
 but, young man,<br>
-it's not simple!（ double nice）</p>
+it's not simple!</p>
 <p>做饭得放米，<br>
 米在米缸、米袋、米桶里，<br>
-放米得看几张口，（single dont cry)<br>
+放米得看几张口，<br>
 量了米得洗，<br>
 洗完米来再加水，<br>
 加少了崩牙，加多了变糊，<br>
@@ -49,11 +49,12 @@ it's not simple!（ double nice）</p>
 放米a，洗米b，加水c，插电d，按钮e，<br>
 其实呢，一切变化都是数据变化，<br>
 电流要跑多少回，水要蒸腾几朵云，<br>
-才能把生米给做成了熟饭。（single think more)</p>
+才能把生米给做成了熟饭。</p>
 <p>So，“找出东西来用” 就是，<br>
-有序编码数据，<br>
-精准写入数据，<br>
-依规有序计算数据。<br>
+编码数据，<br>
+写入数据，<br>
+取出数据，<br>
+计算数据。<br>
 So，你学会做饭了吗？</p>
 ]]></content>
     </entry>
