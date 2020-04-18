@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-04-18T05:40:59.528Z</updated>
+    <updated>2020-04-18T05:41:30.379Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -99,7 +99,9 @@ So，你学会做饭了吗？</p>
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-4-12">2020-4-12</h2>
+        <content type="html"><![CDATA[<h2 id="2020-4-17">2020-4-17</h2>
+<p>实现注册界面</p>
+<h2 id="2020-4-12">2020-4-12</h2>
 <p>实现登陆界面</p>
 <h2 id="2020-4-7">2020-4-7</h2>
 <p>实现用户验证服务</p>
