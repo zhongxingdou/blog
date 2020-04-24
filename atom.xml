@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-04-22T15:37:56.032Z</updated>
+    <updated>2020-04-24T06:56:51.928Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -99,8 +99,13 @@ So，你学会做饭了吗？</p>
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-4-22">2020-4-22</h2>
-<p>实现自动生成页面路由</p>
+        <content type="html"><![CDATA[<h2 id="2020-4-24">2020-4-24</h2>
+<ol>
+<li>实现 PageService</li>
+<li>实现 ComponentService</li>
+</ol>
+<h2 id="2020-4-22">2020-4-22</h2>
+<p>实现自动生成 VueRouter 路由</p>
 <h2 id="2020-4-20">2020-4-20</h2>
 <p>加了后台菜单</p>
 <h2 id="2020-4-17">2020-4-17</h2>
