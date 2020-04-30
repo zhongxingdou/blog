@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-04-24T06:56:51.928Z</updated>
+    <updated>2020-04-30T11:25:03.760Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -99,7 +99,17 @@ So，你学会做饭了吗？</p>
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-4-24">2020-4-24</h2>
+        <content type="html"><![CDATA[<h2 id="2020-4-30">2020-4-30</h2>
+<ol>
+<li>实现了 Page 列表页</li>
+<li>统一包装 service 返回结果</li>
+<li>开始在 TechSEA 上班</li>
+</ol>
+<h2 id="2020-4-29">2020-4-29</h2>
+<p>联系了上海前同事，进行了全面介绍，答应后续帮助推广，并赞同方向</p>
+<h2 id="2020-4-27">2020-4-27</h2>
+<p>支持本地 sqlite3 数据库与本地 nodejs 服务，docker 服务太费笔记本电池</p>
+<h2 id="2020-4-24">2020-4-24</h2>
 <ol>
 <li>实现 PageService</li>
 <li>实现 ComponentService</li>
