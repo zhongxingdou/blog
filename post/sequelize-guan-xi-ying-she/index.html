@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | xingdou&#39;s blog</title>
+<title>Sequelize 关系映射 | xingdou&#39;s blog</title>
 <meta name="description" content="一个程序员的博客">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -75,60 +75,68 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">Sequelize 关系映射</h2>
+            <div class="post-date">2020-05-06</div>
+            
+            <div class="post-content">
+              <h2 id="belongsto">belongsTo</h2>
+<pre><code class="language-js"> models.Page.belongsTo(models.User, {
+    as: 'createUser',
+    foreignKey: 'creator',
+});
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+models.Page.belongsTo(models.User, {
+    as: 'operateUser',
+    foreignKey: 'operator'
+});
+
+models.Page.findOne({
+    where: {id: 1}, 
+    include: 'createUser'
+}).then(p =&gt; console.log(p.createUser.name))
+
+ models.Page.findOne({where: {id: 1}, include: 'createUser'}).then(p =&gt; console.log(p.toJSON()))
+
+ { seo: null,
+  style: null,
+  props: null,
+  id: 1,
+  title: 'test1',
+  description: 'test1 desc',
+  creator: 1,
+  operator: null,
+  createdAt: 2020-04-30T11:50:14.586Z,
+  updatedAt: 2020-04-30T11:50:14.586Z,
+  createUser:
+   { id: 1,
+     name: 'liuxing',
+     email: 'zhongxingdou@gmail.com',
+     password:
+      '14ff096758d8b24276d9ed28088fbf9ff963c5109e7150118f3b6243a1b54874',
+     createdAt: 2020-04-27T02:44:49.848Z,
+     updatedAt: 2020-04-27T02:44:49.848Z } }
+
+models.Page.findAll({include: 'createUser'})
+.then(ps =&gt; console.log(ps[0].createUser.name))
+</code></pre>
+
+            </div>
             
-              <h2 class="year" data-aos="fade-in" data-aos-delay="500">2020</h2>
-              
-                
-                  <article class="post">
-                    <a href="http://zhongxingdou.github.io/blog/post/sequelize-guan-xi-ying-she/">
-                      <h2 class="post-title">
-                        Sequelize 关系映射
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://zhongxingdou.github.io/blog/post/what-code-do/">
-                      <h2 class="post-title">
-                        代码在干什么？
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://zhongxingdou.github.io/blog/post/working-too-long/">
-                      <h2 class="post-title">
-                        工作太久带来的问题
-                      </h2>
-                    </a>
-                  </article>
-                
-              
-                
-                  <article class="post">
-                    <a href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
-                      <h2 class="post-title">
-                        火龙果H5开发平台开发日志
-                      </h2>
-                    </a>
-                  </article>
-                
-              
             
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="http://zhongxingdou.github.io/blog/post/what-code-do/">
+                  <h3 class="post-title">
+                    代码在干什么？
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>

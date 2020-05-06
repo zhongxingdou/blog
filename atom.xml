@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-04-30T11:25:03.760Z</updated>
+    <updated>2020-05-06T12:01:23.052Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -10,6 +10,54 @@
     <logo>http://zhongxingdou.github.io/blog/images/avatar.png</logo>
     <icon>http://zhongxingdou.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2020, xingdou&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Sequelize 关系映射]]></title>
+        <id>http://zhongxingdou.github.io/blog/post/sequelize-guan-xi-ying-she/</id>
+        <link href="http://zhongxingdou.github.io/blog/post/sequelize-guan-xi-ying-she/">
+        </link>
+        <updated>2020-05-06T04:54:05.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="belongsto">belongsTo</h2>
+<pre><code class="language-js"> models.Page.belongsTo(models.User, {
+    as: 'createUser',
+    foreignKey: 'creator',
+});
+
+models.Page.belongsTo(models.User, {
+    as: 'operateUser',
+    foreignKey: 'operator'
+});
+
+models.Page.findOne({
+    where: {id: 1}, 
+    include: 'createUser'
+}).then(p =&gt; console.log(p.createUser.name))
+
+ models.Page.findOne({where: {id: 1}, include: 'createUser'}).then(p =&gt; console.log(p.toJSON()))
+
+ { seo: null,
+  style: null,
+  props: null,
+  id: 1,
+  title: 'test1',
+  description: 'test1 desc',
+  creator: 1,
+  operator: null,
+  createdAt: 2020-04-30T11:50:14.586Z,
+  updatedAt: 2020-04-30T11:50:14.586Z,
+  createUser:
+   { id: 1,
+     name: 'liuxing',
+     email: 'zhongxingdou@gmail.com',
+     password:
+      '14ff096758d8b24276d9ed28088fbf9ff963c5109e7150118f3b6243a1b54874',
+     createdAt: 2020-04-27T02:44:49.848Z,
+     updatedAt: 2020-04-27T02:44:49.848Z } }
+
+models.Page.findAll({include: 'createUser'})
+.then(ps =&gt; console.log(ps[0].createUser.name))
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[代码在干什么？]]></title>
         <id>http://zhongxingdou.github.io/blog/post/what-code-do/</id>
@@ -37,8 +85,8 @@
 量了米得洗，<br>
 洗完米再加水，<br>
 加少了磕牙，加多了变糊，<br>
-1x1.5 是瘦杆米，<br>
-1x1 是胖墩米，<br>
+1x1.5 是精米，<br>
+1x1 是东北大米，<br>
 擦干手来插上电，<br>
 最后记得按对钮。</p>
 <p>其实呢，一切都是数据，<br>
@@ -99,7 +147,14 @@ So，你学会做饭了吗？</p>
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-4-30">2020-4-30</h2>
+        <content type="html"><![CDATA[<h2 id="2020-5-6">2020-5-6</h2>
+<ol>
+<li>Page 列表页实现编辑与删除，添加创建者列</li>
+<li>添加 Element 对 Vue 的扩展的 TypeScript 类型声明</li>
+<li>学习 TypeScript 范型相关，为了声明对现存库的扩展</li>
+<li>学习 Sequelize belongsTo 关联以及关联后的查询输出</li>
+</ol>
+<h2 id="2020-4-30">2020-4-30</h2>
 <ol>
 <li>实现了 Page 列表页</li>
 <li>统一包装 service 返回结果</li>
