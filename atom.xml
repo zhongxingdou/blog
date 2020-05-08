@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-05-06T12:01:23.052Z</updated>
+    <updated>2020-05-08T08:12:42.733Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -147,7 +147,12 @@ So，你学会做饭了吗？</p>
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-5-6">2020-5-6</h2>
+        <content type="html"><![CDATA[<h2 id="2020-5-8">2020-5-8</h2>
+<ol>
+<li>service 实现上传与下载文件</li>
+<li>实现组件分类管理</li>
+</ol>
+<h2 id="2020-5-6">2020-5-6</h2>
 <ol>
 <li>Page 列表页实现编辑与删除，添加创建者列</li>
 <li>添加 Element 对 Vue 的扩展的 TypeScript 类型声明</li>
