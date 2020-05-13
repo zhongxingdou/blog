@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-05-08T08:12:42.733Z</updated>
+    <updated>2020-05-13T11:22:41.603Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -147,7 +147,21 @@ So，你学会做饭了吗？</p>
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-5-8">2020-5-8</h2>
+        <content type="html"><![CDATA[<h2 id="2020-5-12-~-2020-5-13">2020-5-12 ~ 2020-5-13</h2>
+<ol>
+<li>使用 Vue compostion API 和模板语言 pug 重构组件管理</li>
+<li>抽取出公共 Vue hooks：列表页搜索、翻页与刷新逻辑，支持新建与编辑的表单对话框逻辑</li>
+</ol>
+<h2 id="2020-5-11">2020-5-11</h2>
+<ol>
+<li>完成组件管理：包括组件编辑、删除、组件版本新建、删除、修改，以及组件版本在表单页的切换</li>
+</ol>
+<h2 id="2020-5-9">2020-5-9</h2>
+<ol>
+<li>完善组件分类</li>
+<li>新增组件，组件列表 80%</li>
+</ol>
+<h2 id="2020-5-8">2020-5-8</h2>
 <ol>
 <li>service 实现上传与下载文件</li>
 <li>实现组件分类管理</li>
