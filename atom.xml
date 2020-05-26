@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-05-26T07:47:37.909Z</updated>
+    <updated>2020-05-26T07:49:42.779Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -16,7 +16,9 @@
         <link href="http://zhongxingdou.github.io/blog/post/graphql-xue-xi-bi-ji/">
         </link>
         <updated>2020-05-21T07:18:08.000Z</updated>
-        <content type="html"><![CDATA[<p><code>GraphQL 是基于图理论的一种用于查询与修改数据的协议</code></p>
+        <content type="html"><![CDATA[<blockquote>
+<p>GraphQL 是基于图理论的一种用于查询与修改数据的协议</p>
+</blockquote>
 <h2 id="基本类型与表达式">基本类型与表达式</h2>
 <ul>
 <li><strong>String</strong> &quot;hello&quot;</li>
