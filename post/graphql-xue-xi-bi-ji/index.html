@@ -153,7 +153,17 @@ type Worker implements People {
 }
 </code></pre>
 <h2 id="查询">查询</h2>
-<pre><code class="language-GraphQL">query users {
+<ol>
+<li>定义查询</li>
+</ol>
+<pre><code class="language-GraphQL">type Query {
+    allUsers: [User!]!
+}
+</code></pre>
+<ol start="2">
+<li>使用查询</li>
+</ol>
+<pre><code class="language-GraphQL">query allUsers {
 ​	aliasName: name
 ​	friends(genderParam: FEMALE) {
 ​		name
@@ -171,10 +181,50 @@ type Worker implements People {
 ​	}
 }
 </code></pre>
-<h3 id="片段">片段</h3>
+<h3 id="片段-fragment">片段 fragment</h3>
+<blockquote>
+<p>避免查询中重复声明</p>
+</blockquote>
 <pre><code class="language-GraphQL">fragment userInfo on User {
 ​	name
-   gender
+    gender
+}
+</code></pre>
+<h3 id="订阅-subscription">订阅 subscription</h3>
+<ol>
+<li>定义订阅</li>
+</ol>
+<pre><code class="language-GraphQL">type Subscription {
+    newUser: User!
+}
+</code></pre>
+<ol start="2">
+<li>使用订阅</li>
+</ol>
+<pre><code class="language-GraphQL">subscription {
+    newUser {
+        id
+        name
+    }
+}
+</code></pre>
+<h3 id="变更-mutation">变更 mutation</h3>
+<ol>
+<li>定义变更</li>
+</ol>
+<pre><code class="language-GraphQL">type Mutation  {
+    postUser(name: String): User!
+}
+</code></pre>
+<ol start="2">
+<li>使用变更</li>
+</ol>
+<pre><code class="language-GraphQL">mutation newUser($name: String) {
+    postUser(name: $name) {
+        id
+        name
+        createdAt
+    }
 }
 </code></pre>
 
