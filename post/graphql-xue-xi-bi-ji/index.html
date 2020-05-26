@@ -99,41 +99,48 @@
 </ul>
 <h2 id="类型">类型</h2>
 <h3 id="定义类型">定义类型</h3>
-<p><strong>type</strong> User {<br>
-name: String!<br>
-gender: Boolean!<br>
-interest: String<br>
-}</p>
+<pre><code class="language-GraphQL">type User {
+    name: String!
+    gender: Boolean!
+    interest: String
+}
+</code></pre>
 <h3 id="类型间引用">类型间引用</h3>
-<p>type <strong>User</strong>{</p>
-<p>​	favorites: <strong>[Favorite!]</strong></p>
-<p>​	friends: <strong>[Friendship!]!</strong></p>
-<p>}</p>
-<p>type <strong>Favorite</strong> {</p>
-<p>​	name: String!</p>
-<p>}</p>
-<p>type <strong>FriendShip</strong> {</p>
-<p>​	friend_a: User!</p>
-<p>​	friend_b: User!</p>
-<p>}</p>
+<pre><code class="language-GraphQL">type User{
+​	favorites: [Favorite!]
+​	friends: [Friendship!]!
+}
+
+type Favorite {
+​	name: String!
+}
+
+type FriendShip {
+​	friend_a: User!
+​	friend_b: User!
+}
+</code></pre>
 <h3 id="定义接口">定义接口</h3>
 <p>与 type 定义的类型类似，但是可被继承（实现）</p>
-<p><strong>interface</strong> People {</p>
-<p>​	name: String!</p>
-<p>}</p>
-<p>type Worker <strong>implements</strong> People {</p>
-<p>​	name: String!</p>
-<p>​	position: String!</p>
-<p>}</p>
+<pre><code class="language-GraphQL">interface People {
+​	name: String!
+}
+
+type Worker implements People {
+​	name: String!
+​	position: String!
+}
+</code></pre>
 <h3 id="输入类型">输入类型</h3>
 <p>与 type 定义的类型类似，但是专用于<strong>参数</strong></p>
-<p><strong>input</strong> Message {</p>
-<p>​	title: String</p>
-<p>​	content: String!</p>
-<p>}</p>
+<pre><code class="language-GraphQL">input Message {
+​	title: String
+​	content: String!
+}
+</code></pre>
 <h2 id="标量">标量</h2>
 <h3 id="声明标量">声明标量</h3>
-<p><strong>scalar</strong> DateTime</p>
+<p>scalar DateTime</p>
 <h3 id="实现标量">实现标量</h3>
 <pre><code class="language-js">new GraphQLScalarType {
     name: 'DateTime',
@@ -146,26 +153,30 @@ interest: String<br>
 }
 </code></pre>
 <h2 id="查询">查询</h2>
-<p><strong>query</strong> users {</p>
-<p>​	<strong>aliasName</strong>: name</p>
-<p>​	friends(<strong>genderParam</strong>: FEMALE) {</p>
-<p>​		name</p>
-<p>​		gender</p>
-<p>​	}</p>
-<p>​	...on work {</p>
-<p>​		position</p>
-<p>​		office</p>
-<p>​	},</p>
-<p>​	...on study {</p>
-<p>​		grade</p>
-<p>​		school</p>
-<p>​	}</p>
-<p>}</p>
+<pre><code class="language-GraphQL">query users {
+​	aliasName: name
+​	friends(genderParam: FEMALE) {
+​		name
+​		gender
+​	}
+
+​	...on work {
+​		position
+​		office
+​	},	
+
+​	...on study {
+​		grade
+​		school
+​	}
+}
+</code></pre>
 <h3 id="片段">片段</h3>
-<p><strong>fragment</strong> userInfo <strong>on</strong> User {</p>
-<p>​	name</p>
-<p>gender</p>
-<p>}</p>
+<pre><code class="language-GraphQL">fragment userInfo on User {
+​	name
+   gender
+}
+</code></pre>
 
             </div>
             
