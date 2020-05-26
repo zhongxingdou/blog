@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-05-20T09:58:59.378Z</updated>
+    <updated>2020-05-26T06:31:15.946Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -10,6 +10,100 @@
     <logo>http://zhongxingdou.github.io/blog/images/avatar.png</logo>
     <icon>http://zhongxingdou.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2020, xingdou&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[GraphQL 学习笔记]]></title>
+        <id>http://zhongxingdou.github.io/blog/post/graphql-xue-xi-bi-ji/</id>
+        <link href="http://zhongxingdou.github.io/blog/post/graphql-xue-xi-bi-ji/">
+        </link>
+        <updated>2020-05-21T07:18:08.000Z</updated>
+        <content type="html"><![CDATA[<p><code>GraphQL 是基于图理论的一种用于查询与修改数据的协议</code></p>
+<h2 id="基本类型与表达式">基本类型与表达式</h2>
+<ul>
+<li><strong>String</strong> &quot;hello&quot;</li>
+<li><strong>Float</strong> 8888.88</li>
+<li><strong>Boolean</strong> true false</li>
+<li><strong>ID</strong></li>
+<li><strong>enum</strong> Animal { Monkey, Mouse }</li>
+<li>参数 <strong>$var</strong></li>
+<li>数组 <strong>[item]</strong></li>
+<li>不可空类型 <strong>Photo!</strong> ，值不能为 <strong>null</strong></li>
+<li>不可空数组 <strong>[item]!</strong>，数组至少有1项才合法</li>
+<li><strong>[item!]!</strong>，数组至少有1项，数组成员不能为 <strong>null</strong></li>
+<li>标量 <strong>scalar</strong> DateTime，用于扩展基本类型</li>
+<li><strong>union</strong> SchoolPeople = Teacher <strong>|</strong> Student，表示类型的值可以是提供的类型其中之一</li>
+<li><strong>...on</strong> Teacher { course }，引用类型的部分成员</li>
+</ul>
+<h2 id="类型">类型</h2>
+<h3 id="定义类型">定义类型</h3>
+<p><strong>type</strong> User {<br>
+name: String!<br>
+gender: Boolean!<br>
+interest: String<br>
+}</p>
+<h3 id="类型间引用">类型间引用</h3>
+<p>type <strong>User</strong>{</p>
+<p>​	favorites: <strong>[Favorite!]</strong></p>
+<p>​	friends: <strong>[Friendship!]!</strong></p>
+<p>}</p>
+<p>type <strong>Favorite</strong> {</p>
+<p>​	name: String!</p>
+<p>}</p>
+<p>type <strong>FriendShip</strong> {</p>
+<p>​	friend_a: User!</p>
+<p>​	friend_b: User!</p>
+<p>}</p>
+<h3 id="定义接口">定义接口</h3>
+<p>与 type 定义的类型类似，但是可被继承（实现）</p>
+<p><strong>interface</strong> People {</p>
+<p>​	name: String!</p>
+<p>}</p>
+<p>type Worker <strong>implements</strong> People {</p>
+<p>​	name: String!</p>
+<p>​	position: String!</p>
+<p>}</p>
+<h3 id="输入类型">输入类型</h3>
+<p>与 type 定义的类型类似，但是专用于<strong>参数</strong></p>
+<p><strong>input</strong> Message {</p>
+<p>​	title: String</p>
+<p>​	content: String!</p>
+<p>}</p>
+<h2 id="标量">标量</h2>
+<h3 id="声明标量">声明标量</h3>
+<p><strong>scalar</strong> DateTime</p>
+<h3 id="实现标量">实现标量</h3>
+<pre><code class="language-js">new GraphQLScalarType {
+    name: 'DateTime',
+    description: 'A valid date time value.'
+
+    parseValue: value =&gt; new Date(value),                  // 查询变量的值将用它转换
+    serialize: value =&gt; new Date(value).toISOString(),   // 确保返回值有统一的格式
+
+    parseLiteral: ast =&gt; ast.value // 查询字面量最先被解析为AST时，可以转换它的值，如果需要
+}
+</code></pre>
+<h2 id="查询">查询</h2>
+<p><strong>query</strong> users {</p>
+<p>​	<strong>aliasName</strong>: name</p>
+<p>​	friends(<strong>genderParam</strong>: FEMALE) {</p>
+<p>​		name</p>
+<p>​		gender</p>
+<p>​	}</p>
+<p>​	...on work {</p>
+<p>​		position</p>
+<p>​		office</p>
+<p>​	},</p>
+<p>​	...on study {</p>
+<p>​		grade</p>
+<p>​		school</p>
+<p>​	}</p>
+<p>}</p>
+<h3 id="片段">片段</h3>
+<p><strong>fragment</strong> userInfo <strong>on</strong> User {</p>
+<p>​	name</p>
+<p>gender</p>
+<p>}</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sequelize 关系映射]]></title>
         <id>http://zhongxingdou.github.io/blog/post/sequelize-guan-xi-ying-she/</id>
