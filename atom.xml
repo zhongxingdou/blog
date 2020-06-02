@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-05-26T07:49:42.779Z</updated>
+    <updated>2020-06-02T09:11:09.230Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -300,7 +300,20 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-5-18-~-2020-5-20">2020-5-18 ~ 2020-5-20</h2>
+        <content type="html"><![CDATA[<h2 id="2020-6-1-~-2020-6-2">2020-6-1 ~ 2020-6-2</h2>
+<ol>
+<li>组织管理列表页：显示管理员</li>
+<li>实现用户选择通用组件，输入用户名自动完成</li>
+<li>重构 store：分模块，声明类型</li>
+<li>收集h5制作平台界面图片及了解交互与功能，包括：兔展、易企秀、秀米</li>
+</ol>
+<h2 id="2020-5-21-~-2020-5-28-6-workday">2020-5-21 ~ 2020-5-28 6 workday</h2>
+<ol>
+<li>学习 state machine 库 xstate</li>
+<li>实现 vue3 有而 vue-composition 没有的 unref, RefValue</li>
+<li>使用 xstate 重新实现组织管理</li>
+</ol>
+<h2 id="2020-5-18-~-2020-5-20">2020-5-18 ~ 2020-5-20</h2>
 <ol>
 <li>迁移更多类型声明往 type.ts</li>
 <li>实现 util.catchPromise，相关类型声明费了不少时间</li>
