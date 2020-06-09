@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-06-02T09:19:16.715Z</updated>
+    <updated>2020-06-09T11:23:41.597Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -300,7 +300,22 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-6-1-~-2020-6-2">2020-6-1 ~ 2020-6-2</h2>
+        <content type="html"><![CDATA[<h2 id="2020-6-8-~-2020-6-9">2020-6-8 ~ 2020-6-9</h2>
+<ol>
+<li>学习 svelte，可以生成 web component，代码量极小</li>
+<li>开始开发组件编辑器：基本布局，简单组件列表展示，点击组件添加到布局舞台并渲染成功</li>
+<li>学习 snowpack，尝试使用它代替 webpack，失败</li>
+</ol>
+<h2 id="2020-6-3-~-2020-6-6">2020-6-3 ~ 2020-6-6</h2>
+<ol>
+<li>运维：在阿里云成功部署之前开发cwebp镜像到 serverless kuberneters 服务</li>
+<li>todo：进一步了解 bit.dev，暂时认为不是很合适作为组件管理与发布工具</li>
+<li>todo：京东 Taro 可以编译 React 到包括  Web 在内的多个平台，可考虑使用它作为代码生成器，component json tree -&gt; react -&gt; Taro compile -&gt; multiple platform</li>
+<li>todo：了解 virtual-css 相关库，如何动态改变 css 但性能良好，是否可像 virtual-dom 那样 diff 变化并应用到 cssom？</li>
+<li>了解 “凡科-轻站小程序与微传单”，UI交互不错，但是性能比较慢。</li>
+<li>绘制基本架构图<img src="http://zhongxingdou.github.io/blog//post-images/1591701802084.jpeg" alt="" loading="lazy"></li>
+</ol>
+<h2 id="2020-6-1-~-2020-6-2">2020-6-1 ~ 2020-6-2</h2>
 <ol>
 <li>组织管理列表页：显示管理员</li>
 <li>实现用户选择通用组件，输入用户名自动完成</li>
