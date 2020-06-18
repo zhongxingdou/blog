@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-06-09T11:23:41.597Z</updated>
+    <updated>2020-06-18T10:25:45.508Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -300,7 +300,21 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-6-8-~-2020-6-9">2020-6-8 ~ 2020-6-9</h2>
+        <content type="html"><![CDATA[<h2 id="2020-6-15-~-2020-6-18">2020-6-15 ~ 2020-6-18</h2>
+<ol>
+<li>【页面装配编辑器】实现给“容器组件”加入用于选中插入点的“占位组件”</li>
+<li>【页面装配编辑器】去除外部库依赖，重新实现页面组件嵌套拖动</li>
+<li>【页面装配编辑器】实现删除页面组件</li>
+</ol>
+<h2 id="2020-6-10-~-2020-6-12">2020-6-10 ~ 2020-6-12</h2>
+<ol>
+<li>开始开发【页面装配编辑器】，实现基本布局和基本交互</li>
+<li>【页面装配编辑器】支持页面组件拖动调整顺序，选择高亮</li>
+<li>【页面装配编辑器】实现第一个配置组件：字体属性配置</li>
+<li>美化首页，Admin 导航栏</li>
+<li>技术调研：尝试在流动布局中实现图文混排，动态在图片覆盖的位置加空白字符 https://jsbin.com/yucucoc/23/edit?html,css,js,output</li>
+</ol>
+<h2 id="2020-6-8-~-2020-6-9">2020-6-8 ~ 2020-6-9</h2>
 <ol>
 <li>学习 svelte，可以生成 web component，代码量极小</li>
 <li>开始开发组件编辑器：基本布局，简单组件列表展示，点击组件添加到布局舞台并渲染成功</li>
