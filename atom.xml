@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-06-24T07:33:01.676Z</updated>
+    <updated>2020-07-02T10:17:45.982Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -10,6 +10,35 @@
     <logo>http://zhongxingdou.github.io/blog/images/avatar.png</logo>
     <icon>http://zhongxingdou.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2020, xingdou&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[Safari 浏览器扩展：Page QRCode]]></title>
+        <id>http://zhongxingdou.github.io/blog/post/safari-liu-lan-qi-kuo-zhan-page-qrcode/</id>
+        <link href="http://zhongxingdou.github.io/blog/post/safari-liu-lan-qi-kuo-zhan-page-qrcode/">
+        </link>
+        <updated>2020-07-02T05:08:20.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="http://zhongxingdou.github.io/blog//post-images/1593666712183.png" alt="" loading="lazy"><br>
+Page QRCode 是一款 Safari 浏览器扩展， 用于生成网页地址的 QRCode， 从而方便用户将网页地址以图片的形式进行分享</p>
+<p>Page QRCode is a Safari browser extension, it used to generate QRCode of webpage address for easily share with image.</p>
+<h2 id="安装-installing">安装 Installing</h2>
+<ol>
+<li>
+<p>首先打开 Safari 浏览器</p>
+<p>Open Safari Browser</p>
+</li>
+<li>
+<p>从菜单 “Safari浏览器”  中选择 “Safari 浏览器扩展...”，这将自动打开 App Store 程序并进入 “Safari 浏览器扩展” 分类</p>
+<p>Choose the item &quot;Safari browser extension...&quot; from the menu of Safari browser and  the App Store will open the &quot;Safari browser extension&quot; category page.</p>
+</li>
+<li>
+<p>找到 “Page QRCode” 即可进行购买安装.</p>
+<p>Find out &quot;Page QRCode&quot; and install.</p>
+</li>
+</ol>
+<h2 id="反馈问题-consultation-and-suggest">反馈问题 Consultation and suggest</h2>
+<p>如果您想咨询有关 Page QRCode 的问题，请邮件我 zhongxingdou@gmail.com。谢谢。</p>
+<p>Welcome to send email (zhongxingdou@gmail.com) to me for any question or suggest about the Page QRCode extension. Thank you.</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GraphQL 学习笔记]]></title>
         <id>http://zhongxingdou.github.io/blog/post/graphql-xue-xi-bi-ji/</id>
