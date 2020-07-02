@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-07-02T10:20:15.318Z</updated>
+    <updated>2020-07-02T10:24:17.958Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, xingdou&apos;s blog</rights>
     <entry>
         <title type="html"><![CDATA[Safari 浏览器扩展：Page QRCode]]></title>
-        <id>http://zhongxingdou.github.io/blog/post/safari-liu-lan-qi-kuo-zhan-page-qrcode/</id>
-        <link href="http://zhongxingdou.github.io/blog/post/safari-liu-lan-qi-kuo-zhan-page-qrcode/">
+        <id>http://zhongxingdou.github.io/blog/post/safari-page-qrcode-extension/</id>
+        <link href="http://zhongxingdou.github.io/blog/post/safari-page-qrcode-extension/">
         </link>
         <updated>2020-07-02T05:08:20.000Z</updated>
         <content type="html"><![CDATA[<p><img src="http://zhongxingdou.github.io/blog//post-images/1593666712183.png" alt="" loading="lazy"><br>
