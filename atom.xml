@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-09-10T12:01:13.665Z</updated>
+    <updated>2020-09-19T03:53:21.469Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>http://zhongxingdou.github.io/blog/images/avatar.png</logo>
     <icon>http://zhongxingdou.github.io/blog/favicon.ico</icon>
     <rights>All rights reserved 2020, xingdou&apos;s blog</rights>
+    <entry>
+        <title type="html"><![CDATA[安静的力量]]></title>
+        <id>http://zhongxingdou.github.io/blog/post/an-jing-de-li-liang/</id>
+        <link href="http://zhongxingdou.github.io/blog/post/an-jing-de-li-liang/">
+        </link>
+        <updated>2020-09-19T03:35:52.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://zhongxingdou.github.io/blog//post-images/1600487595350.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[牛]]></title>
+        <id>http://zhongxingdou.github.io/blog/post/niu/</id>
+        <link href="http://zhongxingdou.github.io/blog/post/niu/">
+        </link>
+        <updated>2020-09-19T03:33:38.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://zhongxingdou.github.io/blog//post-images/1600486433090.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Safari 浏览器扩展：Page QRCode]]></title>
         <id>http://zhongxingdou.github.io/blog/post/safari-page-qrcode-extension/</id>
@@ -329,7 +347,11 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-9-5-~-2020-9-10">2020-9-5 ~ 2020-9-10</h2>
+        <content type="html"><![CDATA[<h2 id="2020-9-11">2020-9-11</h2>
+<ol>
+<li>制作介绍商业模式的PPT</li>
+</ol>
+<h2 id="2020-9-5-~-2020-9-10">2020-9-5 ~ 2020-9-10</h2>
 <ol>
 <li>实现编辑组件内部元素的样式<img src="http://zhongxingdou.github.io/blog//post-images/1599481921754.png" alt="" loading="lazy"></li>
 </ol>
