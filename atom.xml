@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-09-19T06:53:55.259Z</updated>
+    <updated>2020-10-09T07:48:21.756Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -347,7 +347,17 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-9-11">2020-9-11</h2>
+        <content type="html"><![CDATA[<h2 id="2020-9-21-~-2020-9-30">2020-9-21 ~ 2020-9-30</h2>
+<ol>
+<li>开发 techsea-cloud-web</li>
+<li>2020-10-1 ~ 2020-10-8 国庆与中秋假期</li>
+</ol>
+<h2 id="2020-9-14-~-2020-9-19">2020-9-14 ~ 2020-9-19</h2>
+<ol>
+<li>部署 techsea-cloud-api techsea-cloud-admin 到腾讯云服务器</li>
+<li>开发事件绑定UI组件</li>
+</ol>
+<h2 id="2020-9-11">2020-9-11</h2>
 <ol>
 <li>制作介绍商业模式的PPT</li>
 </ol>
@@ -358,7 +368,7 @@ models.Page.findAll({include: 'createUser'})
 <h2 id="2020-9-1-~-2020-9-4">2020-9-1 ~ 2020-9-4</h2>
 <ol>
 <li>学习JavaScript 验证库 Joi https://joi.dev/  并在 Hapi 项目中 使用</li>
-<li>重构 techsea-cloud router, plugin, settings</li>
+<li>重构 techsea-cloud-api router, plugin, settings</li>
 <li>开始实现组件微调（子元素属性样式编辑）：clone 编辑中的组件放入指定容器中，并将其位置与原组件重叠</li>
 </ol>
 <h2 id="2020-8-31">2020-8-31</h2>
@@ -370,7 +380,7 @@ models.Page.findAll({include: 'createUser'})
 <li>学习 Prisma2 的使用，包括 Studio Migration 及 generate</li>
 <li>学习 Hapi 的使用</li>
 <li>学习 ElementAdmin 的使用</li>
-<li>使用上述技术开发得势网站项目  techsea-cloud-web 与 techsea-cloud-server</li>
+<li>使用上述技术开发得势网站项目  techsea-cloud-admin 与 techsea-cloud-api</li>
 </ol>
 <h2 id="2020-8-17">2020-8-17</h2>
 <ol>
