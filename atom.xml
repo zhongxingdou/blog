@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-10-09T07:48:21.756Z</updated>
+    <updated>2020-10-20T11:42:10.310Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -347,10 +347,16 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-9-21-~-2020-9-30">2020-9-21 ~ 2020-9-30</h2>
+        <content type="html"><![CDATA[<h2 id="2020-10-9-~-2010-10-19">2020-10-9 ~ 2010-10-19</h2>
+<ol>
+<li>开发事件绑定UI组件：支持绑定数据，支持设置属性<br>
+<img src="http://zhongxingdou.github.io/blog//post-images/1603194116435.png" alt="" loading="lazy"></li>
+</ol>
+<h2 id="2020-10-1-~-2020-10-8">2020-10-1 ~ 2020-10-8</h2>
+<p>国庆与中秋假期</p>
+<h2 id="2020-9-21-~-2020-9-30">2020-9-21 ~ 2020-9-30</h2>
 <ol>
 <li>开发 techsea-cloud-web</li>
-<li>2020-10-1 ~ 2020-10-8 国庆与中秋假期</li>
 </ol>
 <h2 id="2020-9-14-~-2020-9-19">2020-9-14 ~ 2020-9-19</h2>
 <ol>
