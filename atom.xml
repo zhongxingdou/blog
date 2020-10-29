@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-10-20T11:43:06.510Z</updated>
+    <updated>2020-10-29T13:00:17.562Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -347,7 +347,13 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-10-9-~-2010-10-19">2020-10-9 ~ 2010-10-19</h2>
+        <content type="html"><![CDATA[<h2 id="2020-10-25-~-2020-10-29">2020-10-25 ~ 2020-10-29</h2>
+<ol>
+<li>编辑器实现预览模式</li>
+<li>全面更新编辑器外观<img src="http://zhongxingdou.github.io/blog//post-images/1603976311375.png" alt="" loading="lazy"></li>
+<li>从数据库加载组件分类与组件</li>
+</ol>
+<h2 id="2020-10-9-~-2010-10-22">2020-10-9 ~ 2010-10-22</h2>
 <ol>
 <li>开发事件绑定UI组件：支持绑定数据，支持设置属性<br>
 <img src="http://zhongxingdou.github.io/blog//post-images/1603194116435.png" alt="" loading="lazy"><br>
