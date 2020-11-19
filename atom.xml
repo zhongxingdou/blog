@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-11-19T11:57:34.676Z</updated>
+    <updated>2020-11-19T11:59:18.457Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -354,6 +354,7 @@ models.Page.findAll({include: 'createUser'})
 <li>实现编辑插件管理后台</li>
 <li>实现动态加载编辑插件</li>
 <li>修复编辑组件刚进入编辑状态又立即退出编辑（未clone data.on导致退出编辑事件处理器始终存在）</li>
+<li>未进入预览时不渲染预览组件，但继续向预览 shadowDOM 添加样式</li>
 </ol>
 <h2 id="2020-11-9-~-2020-11-13">2020-11-9 ~ 2020-11-13</h2>
 <ol>
