@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-10-30T12:06:10.586Z</updated>
+    <updated>2020-11-19T11:57:34.676Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -347,7 +347,28 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-10-25-~-2020-10-30">2020-10-25 ~ 2020-10-30</h2>
+        <content type="html"><![CDATA[<h2 id="2020-11-16-~-2020-11-20">2020-11-16 ~ 2020-11-20</h2>
+<ol>
+<li>优化编辑器组件筛选</li>
+<li>将 huolongguo 项目拆分为 hlg-client 和 hlg-service</li>
+<li>实现编辑插件管理后台</li>
+<li>实现动态加载编辑插件</li>
+<li>修复编辑组件刚进入编辑状态又立即退出编辑（未clone data.on导致退出编辑事件处理器始终存在）</li>
+</ol>
+<h2 id="2020-11-9-~-2020-11-13">2020-11-9 ~ 2020-11-13</h2>
+<ol>
+<li>为得势编写企业微信机器人</li>
+<li>修复组件编辑内部样式相关问题</li>
+</ol>
+<h2 id="2020-11-1-~-2020-11-4">2020-11-1 ~ 2020-11-4</h2>
+<ol>
+<li>动态加载 Vue 组件 css</li>
+<li>在后台重新配置测试组件并通保存到数据库</li>
+<li>重构组件编辑模式实现</li>
+<li>调整组件配置部分结构</li>
+<li>动态加载 Vue 组件 css 中的字体</li>
+</ol>
+<h2 id="2020-10-25-~-2020-10-30">2020-10-25 ~ 2020-10-30</h2>
 <ol>
 <li>编辑器实现预览模式</li>
 <li>全面更新编辑器外观<img src="http://zhongxingdou.github.io/blog//post-images/1603976311375.png" alt="" loading="lazy"></li>
