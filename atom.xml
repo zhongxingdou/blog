@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-11-20T10:38:47.392Z</updated>
+    <updated>2020-11-27T07:47:35.175Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -347,7 +347,13 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-11-16-~-2020-11-20">2020-11-16 ~ 2020-11-20</h2>
+        <content type="html"><![CDATA[<h2 id="2020-11-23-~-2020-11-27">2020-11-23 ~ 2020-11-27</h2>
+<ol>
+<li>实现保存添加的组件、自动保存根组件</li>
+<li>实现加载页面组件并恢复 state 和布局编辑</li>
+<li>实现修改当前选中组件后自动保存</li>
+</ol>
+<h2 id="2020-11-16-~-2020-11-20">2020-11-16 ~ 2020-11-20</h2>
 <ol>
 <li>优化编辑器组件筛选</li>
 <li>将 huolongguo 项目拆分为 hlg-client 和 hlg-service</li>
