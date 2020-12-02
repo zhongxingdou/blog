@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-11-30T11:28:48.276Z</updated>
+    <updated>2020-12-02T12:26:24.256Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -353,6 +353,10 @@ models.Page.findAll({include: 'createUser'})
 <li>页面列表：添加编辑布局链接</li>
 <li>修复编辑组件子节点时编辑组件clone在滚动时定位不准问题</li>
 <li>加载页面组件后恢复布局模式时的组件自定义样式</li>
+<li>调整编辑器布局列的布局样式（中间手机位置）</li>
+<li>调整编辑器布局当前选中组件样式（从outline到模拟四边框）</li>
+<li>编辑器编辑子节点mask和clone的定位实现</li>
+<li>修复恢复组件自定义样式不成功（应该在页面组件完全恢复到store后再恢复）</li>
 </ol>
 <h2 id="2020-11-23-~-2020-11-27">2020-11-23 ~ 2020-11-27</h2>
 <ol>
