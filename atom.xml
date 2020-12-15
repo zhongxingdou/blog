@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-12-02T12:26:24.256Z</updated>
+    <updated>2020-12-15T04:42:18.461Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -347,7 +347,20 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-11-30-~-2020-12-04">2020-11-30 ~ 2020-12-04</h2>
+        <content type="html"><![CDATA[<h2 id="2020-12-14-~-2020-12-18">2020-12-14 ~ 2020-12-18</h2>
+<ol>
+<li>退出编辑时重设页面相关 state</li>
+</ol>
+<h2 id="2020-12-07-~-2020-12-12">2020-12-07 ~ 2020-12-12</h2>
+<ol>
+<li>插件增加 “isGeneral” 字段表是否通用字段</li>
+<li>编辑器使用 grid 布局</li>
+<li>实现组件库用于加载与设置相同库的组件</li>
+<li>实现页面配置：SEO、颜色、展示 ID 与名称</li>
+<li>部署到阿里云（邓景瑞的服务器）</li>
+<li>重构登陆：使用 passport 代替 jsonwebtoken</li>
+</ol>
+<h2 id="2020-11-30-~-2020-12-04">2020-11-30 ~ 2020-12-04</h2>
 <ol>
 <li>删除组件同步到后台，删除前确认</li>
 <li>页面列表：添加编辑布局链接</li>
