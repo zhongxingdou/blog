@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2020-12-29T10:46:06.393Z</updated>
+    <updated>2021-01-01T02:05:47.655Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
     <subtitle>一个程序员的博客</subtitle>
     <logo>http://zhongxingdou.github.io/blog/images/avatar.png</logo>
     <icon>http://zhongxingdou.github.io/blog/favicon.ico</icon>
-    <rights>All rights reserved 2020, xingdou&apos;s blog</rights>
+    <rights>All rights reserved 2021, xingdou&apos;s blog</rights>
     <entry>
         <title type="html"><![CDATA[安静的力量]]></title>
         <id>http://zhongxingdou.github.io/blog/post/an-jing-de-li-liang/</id>
@@ -352,6 +352,8 @@ models.Page.findAll({include: 'createUser'})
 <li>重构组件布局渲染 ComponentRender</li>
 <li>编辑器：实现 popup 类型的编辑插件<br>
 <img src="http://zhongxingdou.github.io/blog//post-images/1609238708122.png" alt="" loading="lazy"></li>
+<li>实现配置限制子组件类型的组件</li>
+<li>编辑器：实现导航树<img src="http://zhongxingdou.github.io/blog//post-images/1609466732633.png" alt="" loading="lazy"></li>
 </ol>
 <h2 id="2020-12-21-~-2020-12-25">2020-12-21 ~ 2020-12-25</h2>
 <ol>
