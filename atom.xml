@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-01-05T10:55:17.964Z</updated>
+    <updated>2021-02-04T22:35:18.483Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -347,7 +347,29 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2021-1-2-~-2021-1-8">2021-1-2 ~ 2021-1-8</h2>
+        <content type="html"><![CDATA[<h2 id="2020-2-1-~-2020-2-5">2020-2-1 ~ 2020-2-5</h2>
+<ol>
+<li>引入 vitejs 构建服务</li>
+<li>因 vitejs 不支持 pug 模板，将 pug 模板转成 HTML</li>
+<li>引入 prettier 并格式化代码</li>
+<li>因 vitejs 使用的 rollup 不支持 require.context，取消动态路由加载，改为手动引入。https://github.com/elcarim5efil/rollup-plugin-require-context 插件可支持</li>
+<li>引入 tailwind</li>
+</ol>
+<h2 id="2020-1-25-~-2021-1-29">2020-1-25 ~ 2021-1-29</h2>
+<ol>
+<li>实现 siteStore 及其 state 与 schema 编辑</li>
+<li>实现 special 专题及其页面管理，当前编辑页面切换</li>
+</ol>
+<h2 id="2021-1-18-~-2021-1-22">2021-1-18 ~ 2021-1-22</h2>
+<ol>
+<li>实现变量组件用于模拟简单数组和对象数组： array-controller，配置插件 value-schema-editor。</li>
+</ol>
+<h2 id="2021-1-11-~-2021-1-13">2021-1-11 ~ 2021-1-13</h2>
+<ol>
+<li>实现组件的 iterator 绑定</li>
+<li>实现组件的 attribute, props 数据绑定，并可绑定到组件或上级组件的 iterator 数据</li>
+</ol>
+<h2 id="2021-1-2-~-2021-1-8">2021-1-2 ~ 2021-1-8</h2>
 <ol>
 <li>重构 store 的 editor 模块，分成三个子模块（editor, editingPage, editingCompTree），避免代码过长</li>
 <li>配置弹出层组件 vant popup，增加配置项 layoutMode.forceData，优先级高于用户配置</li>
