@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-02-04T22:35:18.483Z</updated>
+    <updated>2021-03-05T09:17:41.275Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -347,7 +347,29 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-2-1-~-2020-2-5">2020-2-1 ~ 2020-2-5</h2>
+        <content type="html"><![CDATA[<h2 id="2020-3-1-~-2020-3-5">2020-3-1 ~ 2020-3-5</h2>
+<ol>
+<li>css 设置面板：display、flex-item</li>
+<li>StyleConfigPanel: stop to use computed style</li>
+<li>process.env -&gt; import.meta.env</li>
+<li>upgrade vite</li>
+</ol>
+<h2 id="2020-2-22-~-2020-2-26">2020-2-22 ~ 2020-2-26</h2>
+<ol>
+<li>css 设置面板：background</li>
+<li>23-25 4天在广西南宁</li>
+</ol>
+<h2 id="2020-2-15-~-2020-2-20">2020-2-15 ~ 2020-2-20</h2>
+<ol>
+<li>css 设置面板：margin、padding、position、border</li>
+</ol>
+<h2 id="2020-2-8-~-2020-2-13">2020-2-8 ~ 2020-2-13</h2>
+<ol>
+<li>通用UI组件：input-number-with-unit、el-webfont-select、el-radio-group2</li>
+<li>css 设置面板：文字排版、size</li>
+<li>引入 storybook 方便开发组件 demo、文档</li>
+</ol>
+<h2 id="2020-2-1-~-2020-2-5">2020-2-1 ~ 2020-2-5</h2>
 <ol>
 <li>引入 vitejs 构建服务</li>
 <li>因 vitejs 不支持 pug 模板，将 pug 模板转成 HTML</li>
