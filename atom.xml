@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-03-23T12:11:23.599Z</updated>
+    <updated>2021-03-23T12:14:10.193Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -349,6 +349,7 @@ models.Page.findAll({include: 'createUser'})
         <updated>2020-04-11T10:28:23.000Z</updated>
         <content type="html"><![CDATA[<h2 id="2020-3-21-~-2020-3-26">2020-3-21 ~ 2020-3-26</h2>
 <ol>
+<li>3月21日在家里为兼职前端做组件配置与拼搭页面培训（c景松，hq萍，hj明)</li>
 <li>实现在同一个页面上加载相同<strong>组件的不同版本</strong></li>
 <li>组件标识使用 versionId（相同组件有不同版本），注册时使用 tag + versionId</li>
 <li>rui: UIMapper 支持声明 type 来表明自己的作用，apply 时 type 相同的 UIMapper 只会取一个</li>
