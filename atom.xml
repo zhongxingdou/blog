@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-03-30T10:42:58.616Z</updated>
+    <updated>2021-04-08T12:44:17.900Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -347,7 +347,16 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-3-29-~-2020-3-2">2020-3-29 ~ 2020-3-2</h2>
+        <content type="html"><![CDATA[<h2 id="2020-4-5-~-2020-4-9">2020-4-5 ~ 2020-4-9</h2>
+<ol>
+<li>文档：登陆、数据仓库、数据绑定</li>
+<li>辅助开发第3个页面：度小满金融-投票抽奖（DFY）</li>
+<li>admin：接口</li>
+<li>编辑器：数据仓库-为 数据属性 增加校验，修复 bug</li>
+<li>编辑模式上下文添加变量 $targetTextChildren</li>
+<li>辅助增加 vant 组件（HQP）</li>
+</ol>
+<h2 id="2020-3-29-~-2020-4-2">2020-3-29 ~ 2020-4-2</h2>
 <ol>
 <li><strong>支持多层次 v-for 绑定</strong></li>
 <li>支持 <strong>scoped slot</strong>（传递局部变量的 slot）数据绑定与渲染（data.scopedSlots）</li>
