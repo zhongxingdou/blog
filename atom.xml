@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-04-21T06:02:33.297Z</updated>
+    <updated>2021-05-08T02:54:22.951Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -347,7 +347,41 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2020-4-12-~-2020-4-16">2020-4-12 ~ 2020-4-16</h2>
+        <content type="html"><![CDATA[<h2 id="2021-5-7-~-2021-5-14">2021-5-7 ~ 2021-5-14</h2>
+<ol>
+<li>支持在组件配置的事件绑定配置中声明用 $self 代表组件自身</li>
+<li>添加组件 van-checkbox</li>
+<li>支持在组件配置 defaultMode.data 的子项的值声明为表达式，其优先级高于 configSchema 中项的默认值</li>
+<li>值绑定支持绑定到自身（去除值绑定时排除当前组件）</li>
+<li>在值绑定对话框的应用函数计算中显示绑定对象的类型</li>
+</ol>
+<h2 id="2021-5-1-~-2021-5-6">2021-5-1 ~ 2021-5-6</h2>
+<ol>
+<li>实现配置<strong>组件样式变量</strong></li>
+<li>添加 van-collapse 组件</li>
+<li>功能设计：接口-数据仓库-请求 如何作为功能组件相互配合</li>
+</ol>
+<h2 id="2021-4-24-~-2021-4-29">2021-4-24 ~ 2021-4-29</h2>
+<ol>
+<li>修复组件样式除第一次外均加载失败</li>
+<li>事件绑定支持 promise、waitResult 特性</li>
+<li>rui：添加 mapper 渲染作为 map 的 object 的输入控件</li>
+<li>数据仓库界面优化：编辑数据时隐藏结构树导航</li>
+<li>数据仓库 bug fixes：选择格式后报错以及未正确渲染相应控件</li>
+</ol>
+<h2 id="2021-4-19-~-2021-4-23">2021-4-19 ~ 2021-4-23</h2>
+<ol>
+<li>支持绑定 string 作为迭代数据</li>
+<li>重构 editorType</li>
+<li>页面只读：阻止更新如果页面不允许编辑</li>
+<li>允许注册：如果按住 shift 点击注册按钮</li>
+<li>debounce 页面更新操作</li>
+<li>功能组件：实现服务、admin、菜单、路由、配置面板、编辑器相关导航、事件绑定</li>
+<li>添加功能组件 axios</li>
+<li>编辑器：优化选中组件工具栏和组件名称浮条定位</li>
+<li>支持 domProps 配置、绑定</li>
+</ol>
+<h2 id="2021-4-12-~-2021-4-16">2021-4-12 ~ 2021-4-16</h2>
 <ol>
 <li>页面支持<strong>只读模式</strong>（无权限的人只能预览不能编辑）</li>
 <li>支持<strong>外部预览</strong>（编辑器外），支持手机扫描二维码预览</li>
@@ -359,7 +393,7 @@ models.Page.findAll({include: 'createUser'})
 <li>样式配置插件优化：重构 input-number-with-unit，image-upload 可输入地址，重构 el-spacing-inpu</li>
 <li>开始开发<strong>功能组件</strong></li>
 </ol>
-<h2 id="2020-4-5-~-2020-4-9">2020-4-5 ~ 2020-4-9</h2>
+<h2 id="2021-4-5-~-2021-4-9">2021-4-5 ~ 2021-4-9</h2>
 <ol>
 <li>文档：登陆、数据仓库、数据绑定</li>
 <li>辅助开发第3个页面：度小满金融-投票抽奖（DFY）</li>
@@ -368,7 +402,7 @@ models.Page.findAll({include: 'createUser'})
 <li>编辑模式上下文添加变量 $targetTextChildren</li>
 <li>增加 vant 组件（HQP）</li>
 </ol>
-<h2 id="2020-3-29-~-2020-4-2">2020-3-29 ~ 2020-4-2</h2>
+<h2 id="2021-3-29-~-2021-4-2">2021-3-29 ~ 2021-4-2</h2>
 <ol>
 <li><strong>支持多层次 v-for 绑定</strong></li>
 <li>支持 <strong>scoped slot</strong>（传递局部变量的 slot）数据绑定与渲染（data.scopedSlots）</li>
@@ -376,7 +410,7 @@ models.Page.findAll({include: 'createUser'})
 <li>添加 van-switch、van-pagination 组件</li>
 <li>开始开发<strong>功能组件</strong></li>
 </ol>
-<h2 id="2020-3-21-~-2020-3-26">2020-3-21 ~ 2020-3-26</h2>
+<h2 id="2021-3-21-~-2021-3-26">2021-3-21 ~ 2021-3-26</h2>
 <ol>
 <li>3月21日在家里为兼职前端做组件配置与拼搭页面培训（c景松，hq萍，hj明)</li>
 <li>实现在同一个页面上加载相同<strong>组件的不同版本</strong></li>
@@ -387,7 +421,7 @@ models.Page.findAll({include: 'createUser'})
 <li><strong>实现内容（children）绑定</strong></li>
 <li>组件导航树从配置区移入资源区（避免调整父子样式时经常切换导航面板与样式面板）</li>
 </ol>
-<h2 id="2020-3-15-~-2020-3-1">2020-3-15 ~ 2020-3-1</h2>
+<h2 id="2021-3-15-~-2021-3-1">2021-3-15 ~ 2021-3-1</h2>
 <ol>
 <li>在 DropInBox 中显示 slot 名称与组件名称</li>
 <li>rui：添加图片上传 UIMapper，schema.format: 'image'</li>
@@ -400,35 +434,35 @@ models.Page.findAll({include: 'createUser'})
 <li>编写组件文档 https://www.yuque.com/liuxing-vhg7a/qpdirk<br>
 <img src="http://zhongxingdou.github.io/blog//post-images/1616500770020.png" alt="" loading="lazy"></li>
 </ol>
-<h2 id="2020-3-8-~-2020-3-14">2020-3-8 ~ 2020-3-14</h2>
+<h2 id="2021-3-8-~-2021-3-14">2021-3-8 ~ 2021-3-14</h2>
 <ol>
 <li>admin: 优化组件表单的增加版本操作</li>
 <li>优化编辑器布局与预览区域的样式</li>
 <li><strong>数据绑定支持表达式</strong></li>
 </ol>
-<h2 id="2020-3-1-~-2020-3-5">2020-3-1 ~ 2020-3-5</h2>
+<h2 id="2021-3-1-~-2021-3-5">2021-3-1 ~ 2021-3-5</h2>
 <ol>
 <li>css 设置面板：display、flex-item</li>
 <li>StyleConfigPanel: stop to use computed style</li>
 <li>process.env -&gt; import.meta.env</li>
 <li>upgrade vite</li>
 </ol>
-<h2 id="2020-2-22-~-2020-2-26">2020-2-22 ~ 2020-2-26</h2>
+<h2 id="2021-2-22-~-2021-2-26">2021-2-22 ~ 2021-2-26</h2>
 <ol>
 <li>css 设置面板：background</li>
 <li>23-25 4天在广西南宁</li>
 </ol>
-<h2 id="2020-2-15-~-2020-2-20">2020-2-15 ~ 2020-2-20</h2>
+<h2 id="2021-2-15-~-2021-2-20">2021-2-15 ~ 2021-2-20</h2>
 <ol>
 <li>css 设置面板：margin、padding、position、border</li>
 </ol>
-<h2 id="2020-2-8-~-2020-2-13">2020-2-8 ~ 2020-2-13</h2>
+<h2 id="2021-2-8-~-2021-2-13">2021-2-8 ~ 2021-2-13</h2>
 <ol>
 <li>通用UI组件：input-number-with-unit、el-webfont-select、el-radio-group2</li>
 <li>css 设置面板：文字排版、size</li>
 <li>引入 storybook 方便开发组件 demo、文档</li>
 </ol>
-<h2 id="2020-2-1-~-2020-2-5">2020-2-1 ~ 2020-2-5</h2>
+<h2 id="2021-2-1-~-2021-2-5">2021-2-1 ~ 2021-2-5</h2>
 <ol>
 <li>引入 vitejs 构建服务</li>
 <li>因 vitejs 不支持 pug 模板，将 pug 模板转成 HTML</li>
@@ -436,7 +470,7 @@ models.Page.findAll({include: 'createUser'})
 <li>因 vitejs 使用的 rollup 不支持 require.context，取消动态路由加载，改为手动引入。https://github.com/elcarim5efil/rollup-plugin-require-context 插件可支持</li>
 <li>引入 tailwind</li>
 </ol>
-<h2 id="2020-1-25-~-2021-1-29">2020-1-25 ~ 2021-1-29</h2>
+<h2 id="2021-1-25-~-2021-1-29">2021-1-25 ~ 2021-1-29</h2>
 <ol>
 <li>实现 siteStore 及其 state 与 schema 编辑</li>
 <li>实现 special 专题及其页面管理，当前编辑页面切换</li>
