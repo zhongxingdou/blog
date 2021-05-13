@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-05-08T03:07:28.443Z</updated>
+    <updated>2021-05-13T08:49:38.883Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -354,6 +354,8 @@ models.Page.findAll({include: 'createUser'})
 <li>支持在组件配置 defaultMode.data 的子项的值声明为表达式，其优先级高于 configSchema 中项的默认值</li>
 <li>值绑定支持绑定到自身（去除值绑定时排除当前组件）</li>
 <li>在值绑定对话框的应用函数计算中显示绑定对象的类型</li>
+<li>实现页面组件</li>
+<li>编辑器： 编辑内部样式支持删除选择器（样式应用范围）</li>
 </ol>
 <h2 id="2021-5-1-~-2021-5-6">2021-5-1 ~ 2021-5-6</h2>
 <ol>
