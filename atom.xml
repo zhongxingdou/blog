@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-05-13T08:49:38.883Z</updated>
+    <updated>2021-05-28T14:29:42.819Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -347,7 +347,27 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2021-5-7-~-2021-5-14">2021-5-7 ~ 2021-5-14</h2>
+        <content type="html"><![CDATA[<h2 id="2021-5-24-~-2021-5-28">2021-5-24 ~ 2021-5-28</h2>
+<ol>
+<li>值绑定支持绑定功能组件的公开属性（member，非用于初始化的 props）</li>
+<li>事件设置中的<strong>设置系列方法</strong>支持设置属性的指定后代成员，即通过 path 指定，而不是 name</li>
+<li>界面支持<strong>黑暗模式</strong>主题，并可以通过按钮切换主题</li>
+<li>支持组件配置中设置属性为 <strong>readonly</strong>，即此属性是否为只能读取，不能设置</li>
+<li>实现<strong>双向绑定</strong>，但仅针对输入类型的 UI 组件绑定到功能组件的属性</li>
+<li>添加 HTML 组件 video</li>
+<li>实现在预览时将样式的 px 单位自动<strong>转换成 rem</strong></li>
+</ol>
+<h2 id="2021-5-15-~-2021-5-21">2021-5-15 ~ 2021-5-21</h2>
+<ol>
+<li>支持在组件配置 schema 中通过 $ref 引用远程 schema</li>
+<li>实现用于渲染包含异步节点的 <strong>refSchemaRender</strong></li>
+<li>实现支持异步加载选项的下拉选择组件 RemoteSelect</li>
+<li>实现功能组件：服务接口 <strong>service-api</strong></li>
+<li>实现<strong>页面复制</strong></li>
+<li>设置样式确保根组件是 BFC，这样子组件的 margin 不会影响到根组件</li>
+<li>实现功能组件：<strong>special-data-store</strong> 即数据仓库对应的功能组件</li>
+</ol>
+<h2 id="2021-5-7-~-2021-5-14">2021-5-7 ~ 2021-5-14</h2>
 <ol>
 <li>支持在组件配置的事件绑定配置中声明用 $self 代表组件自身</li>
 <li>添加组件 van-checkbox</li>
