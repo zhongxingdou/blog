@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-05-28T14:29:42.819Z</updated>
+    <updated>2021-05-28T14:30:54.547Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -355,7 +355,7 @@ models.Page.findAll({include: 'createUser'})
 <li>支持组件配置中设置属性为 <strong>readonly</strong>，即此属性是否为只能读取，不能设置</li>
 <li>实现<strong>双向绑定</strong>，但仅针对输入类型的 UI 组件绑定到功能组件的属性</li>
 <li>添加 HTML 组件 video</li>
-<li>实现在预览时将样式的 px 单位自动<strong>转换成 rem</strong></li>
+<li>实现在预览时将样式的 px 单位自动<strong>转换成 rem</strong><img src="http://zhongxingdou.github.io/blog//post-images/1622212246288.png" alt="" loading="lazy"></li>
 </ol>
 <h2 id="2021-5-15-~-2021-5-21">2021-5-15 ~ 2021-5-21</h2>
 <ol>
