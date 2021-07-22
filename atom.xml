@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-07-01T03:20:56.906Z</updated>
+    <updated>2021-07-22T11:23:12.625Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -366,7 +366,30 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2021-5-24-~-2021-5-28">2021-5-24 ~ 2021-5-28</h2>
+        <content type="html"><![CDATA[<h2 id="2021-7-19-~-2020-7-23">2021-7-19 ~ 2020-7-23</h2>
+<ol>
+<li>周二到农行开立公司账户（毛经理）</li>
+<li>联系 BIGO 前同事（袁qj）开发官网移动版适配</li>
+<li>协调 许zf 开发“微任务威客平台”</li>
+<li>开发构建</li>
+</ol>
+<h2 id="2021-7-12-~-2020-7-16">2021-7-12 ~ 2020-7-16</h2>
+<ol>
+<li>开发官网<img src="http://zhongxingdou.github.io/blog//post-images/1626952215719.png" alt="" loading="lazy"></li>
+<li>兼职开发唯品会“盛夏爽购节”页面（Your bug）</li>
+<li>开发构建</li>
+<li>14日拿到营业执照。支付记账费、公司注册费</li>
+<li>备案 ledayun.com.cn</li>
+<li>阿里云上发布需求购买域名 ledayun.com</li>
+<li>阿里云上发布需求购买商标 “乐搭”</li>
+<li>在腾讯云购买服务器、数据库，部署“火龙果H5搭建平台”到腾讯云，保留阿里云上版本</li>
+<li>产品设计“微任务威客平台”</li>
+</ol>
+<h2 id="2021-7-5-~-2020-7-9">2021-7-5 ~ 2020-7-9</h2>
+<ol>
+<li>报名唯品会内部创新项目（建成代报名）</li>
+</ol>
+<h2 id="2021-5-24-~-2021-5-28">2021-5-24 ~ 2021-5-28</h2>
 <ol>
 <li>值绑定支持绑定功能组件的公开属性（member，非用于初始化的 props）</li>
 <li>事件设置中的<strong>设置系列方法</strong>支持设置属性的指定后代成员，即通过 path 指定，而不是 name</li>
