@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-07-30T04:22:07.427Z</updated>
+    <updated>2021-08-06T13:51:54.606Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -366,7 +366,16 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2021-7-26-~-2020-7-30">2021-7-26 ~ 2020-7-30</h2>
+        <content type="html"><![CDATA[<h2 id="2021-8-2-~-2020-8-6">2021-8-2 ~ 2020-8-6</h2>
+<ol>
+<li>构建：实现发布结果页面到 CDN</li>
+<li>构建：支持双向绑定：</li>
+<li>构建：事件绑定支持事件多参数</li>
+<li>支持 Vue directive 作为功能组件</li>
+<li>权限：不能修改他人的插件、组件分类、功能、功能分类、组件库等</li>
+<li>实现上传文件并支持指定文件前缀（如果全是nano-id则不可识别）</li>
+</ol>
+<h2 id="2021-7-26-~-2020-7-30">2021-7-26 ~ 2020-7-30</h2>
 <ol>
 <li>购买域名 ledayun.com 7000元</li>
 <li>支持声明和绑定多个事件参数</li>
