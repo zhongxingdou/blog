@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-08-06T13:51:54.606Z</updated>
+    <updated>2021-08-30T12:27:46.865Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -366,7 +366,34 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2021-8-2-~-2020-8-6">2021-8-2 ~ 2020-8-6</h2>
+        <content type="html"><![CDATA[<h2 id="2021-8-30-~-2020-9-3">2021-8-30 ~ 2020-9-3</h2>
+<ol>
+<li>拓展兼职做众为成微官网（QJ）</li>
+<li>页面增加发布状态相关字段</li>
+<li>申请腾讯地图开发者账号（微信登录）</li>
+<li>拓展兼职（李zw，邱hb）</li>
+</ol>
+<h2 id="2021-8-23-~-2020-8-27">2021-8-23 ~ 2020-8-27</h2>
+<ol>
+<li>备案 compage.net ledayun.cn</li>
+<li>申请微信商家号、开放平台账号、小程序账号。</li>
+<li>官网添加联系方式</li>
+<li>axios 不使用全局默认对象</li>
+<li>修复功能组件初始化参数绑定失败</li>
+</ol>
+<h2 id="2021-8-16-~-2020-8-20">2021-8-16 ~ 2020-8-20</h2>
+<ol>
+<li>实现UI组件及功能组件快照</li>
+<li>拓展客户做微官网（众为成：黄QR）</li>
+<li>拓展兼职（良），已开始任务</li>
+</ol>
+<h2 id="2021-8-9-~-2020-8-13">2021-8-9 ~ 2020-8-13</h2>
+<ol>
+<li>页面组件及功能组件添加 refId 属性，用于引用，方便页面复制</li>
+<li>实现专题模板</li>
+<li>实现专题复制</li>
+</ol>
+<h2 id="2021-8-2-~-2020-8-6">2021-8-2 ~ 2020-8-6</h2>
 <ol>
 <li>构建：实现发布结果页面到 CDN</li>
 <li>构建：支持双向绑定：</li>
