@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-08-30T12:27:46.865Z</updated>
+    <updated>2021-08-31T05:36:46.170Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -372,6 +372,7 @@ models.Page.findAll({include: 'createUser'})
 <li>页面增加发布状态相关字段</li>
 <li>申请腾讯地图开发者账号（微信登录）</li>
 <li>拓展兼职（李zw，邱hb）</li>
+<li>填写拉勾企业账号相关（准备招聘实习生）</li>
 </ol>
 <h2 id="2021-8-23-~-2020-8-27">2021-8-23 ~ 2020-8-27</h2>
 <ol>
@@ -380,6 +381,7 @@ models.Page.findAll({include: 'createUser'})
 <li>官网添加联系方式</li>
 <li>axios 不使用全局默认对象</li>
 <li>修复功能组件初始化参数绑定失败</li>
+<li>拜访朋友（24R机器人，雷哥）</li>
 </ol>
 <h2 id="2021-8-16-~-2020-8-20">2021-8-16 ~ 2020-8-20</h2>
 <ol>
