@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-08-31T05:36:46.170Z</updated>
+    <updated>2021-10-16T07:30:34.285Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -366,13 +366,57 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2021-8-30-~-2020-9-3">2021-8-30 ~ 2020-9-3</h2>
+        <content type="html"><![CDATA[<h2 id="2021-10-11-~-2020-10-15">2021-10-11 ~ 2020-10-15</h2>
+<ol>
+<li>面试录用前端一名（wangning)，签合同一年</li>
+<li>编写组件配置元 schema 方便检查组件配置是否正确（VSCode 原生支持，json 文件添加 $schema 节点实现）</li>
+<li>外包郭han推荐的“晓东-品牌设计”设计商业计划书</li>
+<li>发布：第一次发布时可自定义发布文件名</li>
+<li>修复添加含有文字内容的快照失败</li>
+<li>兼职韦junwei提供唯ph常用组件列表</li>
+<li>兼职许zh、李yh，24R机器人协助修改 BP</li>
+<li>业务：与陈LiQiong商谈福特汽车活动业务，已报价（流量费3000）</li>
+<li>业务：与黄xiaoxuan&amp;乔帮主团队了解业务，他们的活动类型比较少，后期有合作可能</li>
+<li>业务：李北京李 yuliang 联系，暂无进展</li>
+<li>业务：联系东方会，他们提供投资与业务介绍服务，投资1000万5个点</li>
+</ol>
+<h2 id="2021-10-1-~-2020-10-8">2021-10-1 ~ 2020-10-8</h2>
+<ol>
+<li>召集前端搭建开发者开会宣传</li>
+<li>支持配置的 value  为 function 类型 的 diretive（schema 声明为 {type: array, format: event}）</li>
+<li>修改商业计划书</li>
+</ol>
+<h2 id="2021-9-27-~-2020-9-30">2021-9-27 ~ 2020-9-30</h2>
+<ol>
+<li>支持配置的 value  为 function 类型 的 diretive（schema 声明为 {type: array, format: event}）</li>
+</ol>
+<h2 id="2021-9-20-~-2020-9-24">2021-9-20 ~ 2020-9-24</h2>
+<ol>
+<li>背景支持多个背景（图片+中心渐变+方向渐变）</li>
+</ol>
+<h2 id="2021-9-13-~-2020-9-18">2021-9-13 ~ 2020-9-18</h2>
+<ol>
+<li>实现 CSS 库可扩展，动画库不再内置</li>
+<li>支持上传 .zip 文件至腾讯 COS，便于 css 文件中引用图片、字体等资源</li>
+<li>支持组件声明子类型，子类型的配置覆盖基础配置，子类型拥有独立 icon，将展示在组件列表</li>
+<li>兼职李zw添加第一个组件，并写相关过程文章（由本人重写后发布在公众号）</li>
+<li>得势云帮韦junwei收尾</li>
+</ol>
+<h2 id="2021-9-6-~-2020-9-10">2021-9-6 ~ 2020-9-10</h2>
+<ol>
+<li>SEO 添加 image 字段（可用于微信分享）</li>
+<li>文件上传支持输入文件 URL</li>
+<li>得势移动官网（袁qj）</li>
+</ol>
+<h2 id="2021-8-30-~-2020-9-3">2021-8-30 ~ 2020-9-3</h2>
 <ol>
 <li>拓展兼职做众为成微官网（QJ）</li>
 <li>页面增加发布状态相关字段</li>
 <li>申请腾讯地图开发者账号（微信登录）</li>
 <li>拓展兼职（李zw，邱hb）</li>
 <li>填写拉勾企业账号相关（准备招聘实习生）</li>
+<li>添加获取微信签名接口</li>
+<li>添加腾讯地图组件</li>
 </ol>
 <h2 id="2021-8-23-~-2020-8-27">2021-8-23 ~ 2020-8-27</h2>
 <ol>
@@ -382,6 +426,7 @@ models.Page.findAll({include: 'createUser'})
 <li>axios 不使用全局默认对象</li>
 <li>修复功能组件初始化参数绑定失败</li>
 <li>拜访朋友（24R机器人，雷哥）</li>
+<li>乐搭云官网移动版（张liang）</li>
 </ol>
 <h2 id="2021-8-16-~-2020-8-20">2021-8-16 ~ 2020-8-20</h2>
 <ol>
