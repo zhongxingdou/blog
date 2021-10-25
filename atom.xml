@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-10-16T07:35:40.367Z</updated>
+    <updated>2021-10-25T15:30:27.374Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -366,7 +366,22 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2021-10-11-~-2020-10-15">2021-10-11 ~ 2020-10-15</h2>
+        <content type="html"><![CDATA[<h2 id="2021-10-25-~-2020-10-29">2021-10-25 ~ 2020-10-29</h2>
+<ol>
+<li>拆分出管理员后台项目：hlg-admin-service，hlg-admin-web，域名 admin.ledayun.cn</li>
+<li>shopify jsbuy API 测试，可以获取商品，建立结算并设置自定义参数，结算对象的 url 可在 shopify 打开结算页面</li>
+<li>申请公积金企业 key（胡 lf 协助）</li>
+</ol>
+<h2 id="2021-10-18-~-2020-10-22">2021-10-18 ~ 2020-10-22</h2>
+<ol>
+<li>与出口易谈合作，网红分享裂变，Shopify API</li>
+<li>向YangZhong、Arber、立哥推荐产品</li>
+<li>与1024前端谈兼职</li>
+<li>支持 v-if 和 v-show</li>
+<li>登陆后直接跳至后台专题列表</li>
+<li>新增16个vant库组件</li>
+</ol>
+<h2 id="2021-10-11-~-2020-10-15">2021-10-11 ~ 2020-10-15</h2>
 <ol>
 <li>面试录用前端一名（wangning)，签合同一年</li>
 <li>编写组件配置元 schema 方便检查组件配置是否正确（VSCode 原生支持，json 文件添加 $schema 节点实现）</li>
