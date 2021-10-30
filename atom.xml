@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-10-27T05:46:24.474Z</updated>
+    <updated>2021-10-30T15:43:20.159Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -371,6 +371,9 @@ models.Page.findAll({include: 'createUser'})
 <li>拆分出管理员后台项目：hlg-admin-service，hlg-admin-web，域名 admin.ledayun.cn</li>
 <li>shopify jsbuy API 测试，可以获取商品，建立结算并设置自定义参数，结算对象的 url 可在 shopify 打开结算页面</li>
 <li>申请公积金企业 key（胡 lf 协助）</li>
+<li>美化界面<br>
+<img src="http://zhongxingdou.github.io/blog//post-images/1635608190684.png" alt="" loading="lazy"><br>
+<img src="http://zhongxingdou.github.io/blog//post-images/1635608199523.png" alt="" loading="lazy"></li>
 </ol>
 <h2 id="2021-10-18-~-2020-10-22">2021-10-18 ~ 2020-10-22</h2>
 <ol>
