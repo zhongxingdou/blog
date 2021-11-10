@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-10-30T15:43:20.159Z</updated>
+    <updated>2021-11-10T04:39:45.929Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -366,11 +366,29 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2021-10-25-~-2020-10-29">2021-10-25 ~ 2020-10-29</h2>
+        <content type="html"><![CDATA[<h2 id="2021-11-08-~-2020-11-12">2021-11-08 ~ 2020-11-12</h2>
+<ol>
+<li>开发 shopify 商品列表、后台订单列表示例</li>
+<li>拜访出口易番禺公司</li>
+<li>第一次交公积金成功</li>
+<li>rui：default 值支持箭头表达式、object 与 array 的 default 值会被自动 clone</li>
+</ol>
+<h2 id="2021-11-01-~-2020-11-05">2021-11-01 ~ 2020-11-05</h2>
+<ol>
+<li>公积金办理开户</li>
+<li>用户后台：不允许有黑暗主题</li>
+<li>编辑器：在本地缓存中记住黑暗主题设置</li>
+<li>专题的名字允许重复</li>
+<li>设计登录、注册、用户后台界面（晓东-品牌设计）</li>
+<li>支持组件委托属性（function类型），schema 声明为 type: array, format: delegate</li>
+<li>增加页面地址二维码：发布对话框、专题后台</li>
+</ol>
+<h2 id="2021-10-25-~-2020-10-29">2021-10-25 ~ 2020-10-29</h2>
 <ol>
 <li>拆分出管理员后台项目：hlg-admin-service，hlg-admin-web，域名 admin.ledayun.cn</li>
-<li>shopify jsbuy API 测试，可以获取商品，建立结算并设置自定义参数，结算对象的 url 可在 shopify 打开结算页面</li>
+<li>shopify jsbuy API 测试，可以获取商品，建立结算并设置自定义参数，结算对象的 url 可在 shopify 打开结算页面，添加 shopify checkout 支付后的扩展</li>
 <li>申请公积金企业 key（胡 lf 协助）</li>
+<li>业务拓展（杨zhong）</li>
 <li>美化界面<br>
 <img src="http://zhongxingdou.github.io/blog//post-images/1635608190684.png" alt="" loading="lazy"><br>
 <img src="http://zhongxingdou.github.io/blog//post-images/1635608199523.png" alt="" loading="lazy"></li>
