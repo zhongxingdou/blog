@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-11-12T11:26:50.257Z</updated>
+    <updated>2021-11-15T04:56:48.351Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -366,12 +366,18 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2021-11-08-~-2020-11-12">2021-11-08 ~ 2020-11-12</h2>
+        <content type="html"><![CDATA[<h2 id="2021-11-14-~-2020-11-19">2021-11-14 ~ 2020-11-19</h2>
+<ol>
+<li>业务：为出口易 shopify 项目画原型在墨刀上</li>
+<li>业务：与新客云达成为其进行小程序与后台开发</li>
+</ol>
+<h2 id="2021-11-08-~-2020-11-12">2021-11-08 ~ 2020-11-12</h2>
 <ol>
 <li>开发 shopify 商品列表、后台订单列表示例</li>
 <li>拜访出口易番禺公司</li>
 <li>第一次交公积金成功</li>
 <li>rui：default 值支持箭头表达式、object 与 array 的 default 值会被自动 clone</li>
+<li>实现新设计的：登录、注册、用户后台、首页</li>
 </ol>
 <h2 id="2021-11-01-~-2020-11-05">2021-11-01 ~ 2020-11-05</h2>
 <ol>
