@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-11-15T04:56:48.351Z</updated>
+    <updated>2021-12-02T10:04:10.846Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -366,10 +366,29 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2021-11-14-~-2020-11-19">2021-11-14 ~ 2020-11-19</h2>
+        <content type="html"><![CDATA[<h2 id="2021-11-29-~-2020-12-3">2021-11-29 ~ 2020-12-3</h2>
+<ol>
+<li>rui 支持 patternProperties</li>
+<li>优化编辑器 darkMode</li>
+<li>组件大纲树支持 slot，折叠状态在组件增删除后可以保持</li>
+<li>安全退出：不使用 vue 路由跳转至登录，使用 location.href 实现页面刷新清空内存</li>
+<li>编辑器：支持配置栏宽度调节</li>
+</ol>
+<h2 id="2021-11-22-~-2020-11-26">2021-11-22 ~ 2020-11-26</h2>
+<ol>
+<li>实现组件、库、专题、模板、插件转移或分享给团队</li>
+<li>团队：邀请加入、系统邀请消息、加入团队、团队与个人账户切换</li>
+<li>团队与个人账户权限</li>
+<li>支持配置需要返回值的委托属性</li>
+<li>构建：使用 promise next handler 代替 async await</li>
+<li>办理员工离职手续</li>
+</ol>
+<h2 id="2021-11-14-~-2020-11-19">2021-11-14 ~ 2020-11-19</h2>
 <ol>
 <li>业务：为出口易 shopify 项目画原型在墨刀上</li>
 <li>业务：与新客云达成为其进行小程序与后台开发</li>
+<li>和老乡（怀）谈外包项目（美容美发咨询公司的业务系统）</li>
+<li>与得势一起拜访深圳坂田的东南亚电商公司（东南亚知识局等）</li>
 </ol>
 <h2 id="2021-11-08-~-2020-11-12">2021-11-08 ~ 2020-11-12</h2>
 <ol>
