@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-12-02T10:04:10.846Z</updated>
+    <updated>2021-12-11T10:30:03.285Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -366,7 +366,19 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2021-11-29-~-2020-12-3">2021-11-29 ~ 2020-12-3</h2>
+        <content type="html"><![CDATA[<h2 id="2021-12-6-~-2020-12-10">2021-12-6 ~ 2020-12-10</h2>
+<ol>
+<li>客户：加入微信群&quot;创业者联盟-Viper&quot;唯品会前员工创业者群</li>
+<li>客户：新增意向客户，唯品会前员工公司-为伊科技（白云区，成立于2015年，企业数字化SaaS服务商）</li>
+<li>客户：加入微信群“奇绩创坛广州线下交流群”</li>
+<li>客户：新增意向客户，奇绩创坛群友-千秋软件（成立10年，天河区，• 一体化物联网解决方案提供商 • 企业数字化转型专业服务商），约下周见</li>
+<li>参加奇迹创坛广州会议，听陆奇分享</li>
+<li>优化 patterProperties 的 key 输入，修复前后台 bug</li>
+<li>编写文档：表单双向绑定</li>
+<li>融资：在鲸准 App 上传融资资料，第一天有5个投资人要了BP</li>
+<li>融资：投奇绩创坛（已被投企业获客多推荐，前BIGO同事），按对方要求回答问题，等面试</li>
+</ol>
+<h2 id="2021-11-29-~-2020-12-3">2021-11-29 ~ 2020-12-3</h2>
 <ol>
 <li>rui 支持 patternProperties</li>
 <li>优化编辑器 darkMode</li>
