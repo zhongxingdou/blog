@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-12-16T17:23:10.222Z</updated>
+    <updated>2021-12-30T07:43:06.948Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -366,7 +366,29 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2021-12-6-~-2020-12-10">2021-12-6 ~ 2020-12-10</h2>
+        <content type="html"><![CDATA[<h2 id="2021-12-27-~-2020-12-31">2021-12-27 ~ 2020-12-31</h2>
+<ol>
+<li>武大创新投推荐联系亿方集团兆方投资-余</li>
+<li>鲸准上主动联系-亦联、线性、丰元、源码，邮件：深创投、启亿资本</li>
+<li>构建：支持 transition、注册与实例化作为功能组件的 Vue 组件</li>
+<li>支持 transition-group</li>
+<li>编辑器：重构动画设置面板、添加 transition 设置面板</li>
+</ol>
+<h2 id="2021-12-20-~-2020-12-24">2021-12-20 ~ 2020-12-24</h2>
+<ol>
+<li>支持设置组件属性为 null，为 null 时不传递给组件</li>
+<li>rui：支持日期格式</li>
+<li>rui：重构 oneOf 实现</li>
+<li>教程：基于抽奖示例的数据接口与功能组件使用教程（沈sk）</li>
+</ol>
+<h2 id="2021-12-13-~-2020-12-17">2021-12-13 ~ 2020-12-17</h2>
+<ol>
+<li>构建：优化计算绑定值</li>
+<li>按功能分割在 main 中引入的全局 CSS</li>
+<li>注册：优化验证</li>
+<li>编辑器：实现 transiton 配置并自动包裹它配置的组件</li>
+</ol>
+<h2 id="2021-12-6-~-2020-12-10">2021-12-6 ~ 2020-12-10</h2>
 <ol>
 <li>客户：加入微信群&quot;创业者联盟-Viper&quot;唯品会前员工创业者群</li>
 <li>客户：新增意向客户，唯品会前员工公司-为伊科技（白云区，成立于2015年，企业数字化SaaS服务商）</li>
