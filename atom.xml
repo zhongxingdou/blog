@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2021-12-30T12:20:56.542Z</updated>
+    <updated>2022-01-01T04:07:44.892Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
     <subtitle>一个程序员的博客</subtitle>
     <logo>http://zhongxingdou.github.io/blog/images/avatar.png</logo>
     <icon>http://zhongxingdou.github.io/blog/favicon.ico</icon>
-    <rights>All rights reserved 2021, xingdou&apos;s blog</rights>
+    <rights>All rights reserved 2022, xingdou&apos;s blog</rights>
     <entry>
         <title type="html"><![CDATA[我想做一家朝九晚五四天的慢公司]]></title>
         <id>http://zhongxingdou.github.io/blog/post/wo-xiang-zuo-yi-jia-zhao-jiu-wan-wu-si-tian-de-man-gong-si/</id>
@@ -368,11 +368,12 @@ models.Page.findAll({include: 'createUser'})
         <updated>2020-04-11T10:28:23.000Z</updated>
         <content type="html"><![CDATA[<h2 id="2021-12-27-~-2020-12-31">2021-12-27 ~ 2020-12-31</h2>
 <ol>
-<li>武大创新投推荐联系亿方集团兆方投资-余</li>
-<li>鲸准上主动联系-亦联、线性、丰元、源码，邮件：深创投、启亿资本</li>
+<li>融资：武大创新投推荐联系亿方集团兆方投资-余</li>
+<li>融资：鲸准上主动联系-亦联、线性、丰元、源码，邮件：深创投、启亿资本</li>
 <li>构建：支持 transition、注册与实例化作为功能组件的 Vue 组件</li>
 <li>支持 transition-group</li>
 <li>编辑器：重构动画设置面板、添加 transition 设置面板</li>
+<li>发布时生成页面预览图</li>
 </ol>
 <h2 id="2021-12-20-~-2020-12-24">2021-12-20 ~ 2020-12-24</h2>
 <ol>
