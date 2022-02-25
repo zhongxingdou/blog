@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2022-01-01T04:11:28.898Z</updated>
+    <updated>2022-02-25T12:22:22.299Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -366,7 +366,49 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2021-12-27-~-2020-12-31">2021-12-27 ~ 2020-12-31</h2>
+        <content type="html"><![CDATA[<h2 id="2022-2-21-~-2020-2-25">2022-2-21 ~ 2020-2-25</h2>
+<ol>
+<li>得势：添加证书 task.techsea.com.cn</li>
+<li>得势：充值100并使用云函数备份数据库</li>
+<li>数据安全：使用云函数备份数据库，不同数据库使用不同的账号密码</li>
+<li>活动小程序：对接口，使用“干净架构”重构</li>
+<li>编辑器重构：布局与预览从 shadow dom -&gt; iframe</li>
+</ol>
+<h2 id="2022-2-14-~-2020-2-18">2022-2-14 ~ 2020-2-18</h2>
+<ol>
+<li>业务：江合磁业，微官网+PC官网，介绍乐搭云</li>
+<li>业务：桥头老乡，吉泰财税-宁总、力源自动化、渔舟红-王总、弘川塑胶五金-康总</li>
+<li>活动小程序：开发界面（吕qj）+ 接口（张zh）</li>
+<li>编辑器重构：布局与预览从 shadow dom -&gt; iframe</li>
+</ol>
+<h2 id="2022-2-1-~-2020-2-11">2022-2-1 ~ 2020-2-11</h2>
+<ol>
+<li>组件配置：验证 van-divider、van-empty、van-navbar</li>
+<li>重构编辑器主文件 index.vue：分离出子组件，减少代码行数</li>
+<li>编辑器重构：布局与预览从 shadow dom -&gt; iframe</li>
+</ol>
+<h2 id="2022-1-24-~-2020-1-28">2022-1-24 ~ 2020-1-28</h2>
+<ol>
+<li>开发产品手册小程序：小程序、后台、接口</li>
+<li>组件配置：验证 van-loading、van-card、van-tag、van-actionSheet、van-action、van-area、van-pull-refresh</li>
+</ol>
+<h2 id="2022-1-17-~-2020-1-21">2022-1-17 ~ 2020-1-21</h2>
+<ol>
+<li>开发产品手册小程序：小程序、后台、接口</li>
+<li>上线产品手册小程序：骏马香料手册</li>
+</ol>
+<h2 id="2022-1-10-~-2020-1-14">2022-1-10 ~ 2020-1-14</h2>
+<ol>
+<li>开发产品手册小程序：小程序、后台、接口</li>
+</ol>
+<h2 id="2022-1-1-~-2020-1-7">2022-1-1 ~ 2020-1-7</h2>
+<ol>
+<li>开发产品手册小程序：小程序、后台、接口</li>
+<li>部署小程序第三方平台管理工具</li>
+<li>支持微信登录</li>
+<li>支持 HTML 作为组件库（方便筛选）</li>
+</ol>
+<h2 id="2021-12-27-~-2020-12-31">2021-12-27 ~ 2020-12-31</h2>
 <ol>
 <li>融资：武大创新投推荐联系亿方集团兆方投资-余</li>
 <li>融资：鲸准上主动联系-亦联、线性、丰元、源码，邮件：深创投、启亿资本</li>
