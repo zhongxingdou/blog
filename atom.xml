@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2022-03-14T15:02:44.682Z</updated>
+    <updated>2022-05-08T14:37:24.386Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -366,10 +366,75 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2022-3-14-~-2020-3-18">2022-3-14 ~ 2020-3-18</h2>
+        <content type="html"><![CDATA[<h2 id="2022-5-1-~-2020-5-8">2022-5-1 ~ 2020-5-8</h2>
+<ol>
+<li>业务：富奥斯完成签合同（1.4万，两个官网站）</li>
+<li>绑定表达式支持多值引用</li>
+<li>小程序：乐美go营销小程序支持微信支付服务商，增强分销数据（红包）</li>
+<li>用户体验：支持预览扫码免登录</li>
+<li>实现编辑器的图片资源导航：展示上传图片、点击添加到页面、支持上传</li>
+<li>编辑器：新建页面添加路由名称与路由路径</li>
+<li>安全：请求增加header头防止攻击</li>
+<li>上传资源（图片、文件）到 cos 时添加用户群组与用户id前缀</li>
+<li>官网小程序：支持打开企业微信客服聊天</li>
+</ol>
+<h2 id="2022-4-25-~-2020-4-30">2022-4-25 ~ 2020-4-30</h2>
+<ol>
+<li>上传的图片登记到页面资源表</li>
+<li>优化编辑器组件搜索：debounce</li>
+<li>官网小程序：正式上线得势科技（根据公司介绍PPT来导数据）</li>
+<li>业务：与中专同学（刘yi、肖yufei、李jian）见面</li>
+<li>业务：物业报修工单小程序-报价（得势介绍的东莞朋友）</li>
+<li>业务：销售张 yusheng 结束试用（未开单）</li>
+<li>官网小程序：润飞包装（未上线）</li>
+<li>商标：酷乐搭，乐搭云两个商标初审已过，进入公示阶段</li>
+</ol>
+<h2 id="2022-4-18-~-2020-4-24">2022-4-18 ~ 2020-4-24</h2>
+<ol>
+<li>官网小程序：上线易防伪（根据官网）</li>
+<li>业务：与唯品会前CTO Daniel联系，对方加我</li>
+<li>沈shaokan入职</li>
+<li>业务：销售张 yusheng 开始试用</li>
+<li>业务：拜访富奥斯</li>
+<li>官网小程序：分级报价<br>
+<img src="http://zhongxingdou.github.io/blog//post-images/1652020438993.jpg" alt="" loading="lazy"></li>
+</ol>
+<h2 id="2022-4-11-~-2020-4-15">2022-4-11 ~ 2020-4-15</h2>
+<ol>
+<li>官网小程序：支持首页显示产品</li>
+<li>视频按比例缩放</li>
+<li>官网小程序：上线乐搭云软件</li>
+<li>融资：再次投奇迹创坛</li>
+</ol>
+<h2 id="2022-4-3-~-2020-4-8">2022-4-3 ~ 2020-4-8</h2>
+<ol>
+<li>重构布局沙箱与主编辑器协作逻辑</li>
+<li>实现账号信息修改与密码修改</li>
+<li>官网小程序：安家窗饰</li>
+<li>融资：奇迹创坛-王力-电话邀请再次投</li>
+</ol>
+<h2 id="2022-3-28-~-2020-4-1">2022-3-28 ~ 2020-4-1</h2>
+<ol>
+<li>修复布局模式导入css库失败</li>
+<li>注册时需要输入验证码</li>
+<li>修复传递非本地对象到 iframe 沙箱引起的错误、完善与沙箱传递同步数据</li>
+<li>小程序搭建：实现搭建最小形式小程序</li>
+<li>编辑器布局与预览舞台尺寸与缩放可调整</li>
+<li>官网小程序：众为成科技上线</li>
+<li>融资：雷雨来茉莉</li>
+</ol>
+<h2 id="2022-3-21-~-2020-3-25">2022-3-21 ~ 2020-3-25</h2>
+<ol>
+<li>融资：拜访雷雨投资</li>
+<li>优化商业计划书</li>
+</ol>
+<h2 id="2022-3-14-~-2020-3-18">2022-3-14 ~ 2020-3-18</h2>
 <ol>
 <li>上线微官网：友力包装</li>
 <li>微官网拓展客服：得势科技（beta)、众为成（待打款验证）</li>
+<li>官网小程序：修复导航页分类名称过长导致横向溢出、联系我们文字换行</li>
+<li>官网小程序：支持分享、添加公司介绍页面、联系我们</li>
+<li>营销小程序：优化，保存用户信息、活动结束期限、成功回退不到下单</li>
 </ol>
 <h2 id="2022-3-7-~-2020-3-13">2022-3-7 ~ 2020-3-13</h2>
 <ol>
