@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2022-05-13T13:38:08.586Z</updated>
+    <updated>2022-07-08T22:26:18.885Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -366,7 +366,46 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2022-5-9-~-2020-5-13">2022-5-9 ~ 2020-5-13</h2>
+        <content type="html"><![CDATA[<h2 id="2022-7-4-~-2022-7-9">2022-7-4 ~ 2022-7-9</h2>
+<ol>
+<li>业务：bigo同事展能介绍h5搭建活动试做《赛尔之光抽奖活动》 https://page.ledayun.com.cn/g2/p1/31552/page.html</li>
+<li>业务：得势同事钜chen介绍银湖湾建设官网业务</li>
+<li>业务：bigo同事晓sheng介绍批发小程序商城业务</li>
+<li>项目：规划乐搭云官网2022信息架构</li>
+</ol>
+<h2 id="2022-6-27-~-2022-7-2">2022-6-27 ~ 2022-7-2</h2>
+<ol>
+<li>业务：富奥斯网站上线 https://www.fuaosi.cn <img src="http://zhongxingdou.github.io/blog//post-images/1657317257830.png" alt="" loading="lazy"></li>
+<li>业务：与周rong、雷雨俞总见面</li>
+</ol>
+<h2 id="2022-6-12-~-2020-6-28">2022-6-12 ~ 2020-6-28</h2>
+<ol>
+<li>在老家照顾家人</li>
+<li>业务：送水小程序</li>
+<li>搭建：重构构建以支持多页面以及小程序</li>
+</ol>
+<h2 id="2022-6-6-~-2020-6-10">2022-6-6 ~ 2020-6-10</h2>
+<ol>
+<li>官网小程序：开发下单、支付相关功能</li>
+<li>开发富奥斯官网</li>
+<li>开发富奥斯后台</li>
+</ol>
+<h2 id="2022-5-30-~-2020-6-3">2022-5-30 ~ 2020-6-3</h2>
+<ol>
+<li>开发富奥斯官网</li>
+<li>开发富奥斯后台</li>
+</ol>
+<h2 id="2022-5-23-~-2020-5-27">2022-5-23 ~ 2020-5-27</h2>
+<ol>
+<li>开发富奥斯官网</li>
+<li>开发富奥斯后台</li>
+</ol>
+<h2 id="2022-5-16-~-2020-5-20">2022-5-16 ~ 2020-5-20</h2>
+<ol>
+<li>开发富奥斯官网</li>
+<li>开发富奥斯后台</li>
+</ol>
+<h2 id="2022-5-9-~-2020-5-13">2022-5-9 ~ 2020-5-13</h2>
 <ol>
 <li>业务：收到富奥斯打款</li>
 <li>业务：唯品前主管曾li咨询搭建（小程序搭建，绑数据）</li>
