@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://zhongxingdou.github.io/blog/</id>
     <title>xingdou&apos;s blog</title>
-    <updated>2022-07-08T22:33:40.905Z</updated>
+    <updated>2022-09-21T06:26:26.703Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://zhongxingdou.github.io/blog/"/>
     <link rel="self" href="http://zhongxingdou.github.io/blog/atom.xml"/>
@@ -366,7 +366,72 @@ models.Page.findAll({include: 'createUser'})
         <link href="http://zhongxingdou.github.io/blog/post/huolongguo-h5-dev-log/">
         </link>
         <updated>2020-04-11T10:28:23.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="2022-7-4-~-2022-7-9">2022-7-4 ~ 2022-7-9</h2>
+        <content type="html"><![CDATA[<h2 id="2022-9-19-~-2022-9-23">2022-9-19 ~ 2022-9-23</h2>
+<ol>
+<li>上线 docker 管理程序 portainer.ledayun.com</li>
+<li>搭建构建：支持绑定和设置（handler中）已有绑定的组件 prop</li>
+<li>准备捷顺官网的生产环境与发布</li>
+</ol>
+<h2 id="2022-9-12-~-2022-9-16">2022-9-12 ~ 2022-9-16</h2>
+<ol>
+<li>搭建：重构 rui mappers</li>
+<li>搭建构建：支持绑定和设置（handler中）已有绑定的组件 prop</li>
+</ol>
+<h2 id="2022-9-5-~-2022-9-9">2022-9-5 ~ 2022-9-9</h2>
+<ol>
+<li>搭建-用户体验：界面相关（深色模式bugfix、绑定、预览二维码、接口列表）</li>
+<li>搭建：对接客户云存储 cos</li>
+</ol>
+<h2 id="2022-8-29-~-2022-9-3">2022-8-29 ~ 2022-9-3</h2>
+<ol>
+<li>肖承文中医诊所小程序上线并收款</li>
+<li>搭建-用户体验：用户登陆自动切换到上次登陆的组织或个人账号状态</li>
+<li>搭建-构建：支持逻辑控制流 if-else for break continue</li>
+<li>搭建-发布：发布带时间戳版本，方便后续回滚</li>
+<li>搭建-布局：sync layout stage width and page width</li>
+<li>搭建-性能优化：预览模式时才加载预览页面、避免重复加载组件库</li>
+</ol>
+<h2 id="2022-8-22-~-2022-8-26">2022-8-22 ~ 2022-8-26</h2>
+<ol>
+<li>星火介绍肖承文中医诊所小程序</li>
+<li>搭建：修复自定义组件样式bug</li>
+<li>搭建-数据绑定：可绑定对象成员</li>
+<li>搭建《咕咕夺宝》活动页上线</li>
+</ol>
+<h2 id="2022-8-15-~-2022-8-19">2022-8-15 ~ 2022-8-19</h2>
+<ol>
+<li>使用 ops 发布乐搭云新官网 <img src="http://zhongxingdou.github.io/blog//post-images/1663736886778.png" alt="" loading="lazy"></li>
+<li>搭建：组件分类按顺序号排序</li>
+<li>搭建-用户体验：支持收藏组件、最近使用组件、调整样式设置面板顺序</li>
+<li>新官网开发</li>
+<li>搭建《咕咕夺宝》活动页</li>
+</ol>
+<h2 id="2022-8-8-~-2022-8-12">2022-8-8 ~ 2022-8-12</h2>
+<ol>
+<li>收到校园小店批发小程序首付款</li>
+<li>搭建-构建：重构 await loop 为 await Promise.all</li>
+</ol>
+<h2 id="2022-8-1-~-2022-8-5">2022-8-1 ~ 2022-8-5</h2>
+<ol>
+<li>搭建：支持自定义存储（发布文件保存位置）和域名</li>
+<li>新官网开发</li>
+<li>业务：去深圳高竞（星河互动）演示搭建</li>
+</ol>
+<h2 id="2022-7-25-~-2022-7-29">2022-7-25 ~ 2022-7-29</h2>
+<ol>
+<li>开始使用 ops.ledayun.com 发布富奥斯官网</li>
+<li>搭建-构建：重构（数据准备和代码生成分离、构建单页面和构建多页面）</li>
+</ol>
+<h2 id="2022-7-18-~-2022-8-22">2022-7-18 ~ 2022-8-22</h2>
+<ol>
+<li>商标“酷乐搭”初审通过，三月后可发证</li>
+<li>搭建-构建：重构（数据准备和代码生成分离、构建单页面和构建多页面）</li>
+</ol>
+<h2 id="2022-7-11-~-2022-7-15">2022-7-11 ~ 2022-7-15</h2>
+<ol>
+<li>搭建-构建：重构（数据准备和代码生成分离、构建单页面和构建多页面）</li>
+</ol>
+<h2 id="2022-7-4-~-2022-7-9">2022-7-4 ~ 2022-7-9</h2>
 <ol>
 <li>业务：bigo同事展能介绍h5搭建活动试做《赛尔之光抽奖活动》 https://page.ledayun.com.cn/g2/p1/31552/page.html</li>
 <li>业务：得势同事钜chen介绍银湖湾建设官网业务</li>
